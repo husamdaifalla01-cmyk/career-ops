@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        uo: {
+          garnet: "#8B0028",
+          garnetDark: "#6E0020",
+          garnetText: "#8B1A2F",
+          red: "#A6192E",
+          khaki: "#A89A8C",
+          khakiDark: "#8C7F73",
+          khakiActive: "#9C8E80",
+          beige: "#D9CFC2",
+          beigeBand: "#C5B7A6",
+          canvas: "#F2F2F2",
+          card: "#FFFFFF",
+          ink: "#2A2A2A",
+          subtle: "#666666",
+          link: "#7B1428",
+        },
+        ps: {
+          bg: "#FFFFFF",
+          link: "#0033CC",
+          tabActive: "#FFFFFF",
+          tabActiveBorder: "#A6BAD9",
+          tabInactive: "#E6EDF5",
+          tabBorder: "#7E9AB8",
+          sectionHeader: "#C56B0B",
+          sectionUnderline: "#D9D9D9",
+          tableHeader: "#A6BAD9",
+          tableBorder: "#A6A6A6",
+          tableRow: "#FFFFFF",
+          tableRowAlt: "#F7F7F7",
+          buttonFrom: "#F2E6CC",
+          buttonTo: "#D9C28C",
+          buttonBorder: "#8C7F5A",
+          ink: "#000000",
+          subtle: "#444444",
+          radio: "#5B6B82",
+          dropdownBorder: "#7E9AB8",
+          languagePill: "#D6F2C9",
+          languagePillBorder: "#7AB36B",
+        },
+      },
+      fontFamily: {
+        uo: ["Arial", "Helvetica", "sans-serif"],
+        ps: ["Verdana", "Arial", "Helvetica", "sans-serif"],
+      },
+      fontSize: {
+        "ps-xs": ["10px", "13px"],
+        "ps-sm": ["11px", "14px"],
+        "ps-base": ["12px", "15px"],
+      },
+      boxShadow: {
+        "uo-card": "0 1px 2px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.06)",
+        "ps-button": "1px 1px 0 rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.6)",
+      },
+      maxWidth: {
+        "uo-container": "1200px",
+      },
+    },
+  },
+  plugins: [],
+};
