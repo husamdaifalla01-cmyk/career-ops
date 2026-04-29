@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { findTerm } from "../data/grades";
+import { findTerm, type Term } from "../data/grades";
 import { PsButton } from "../components/peoplesoft/Button";
 
 export default function ViewGrades() {
@@ -32,19 +32,23 @@ export default function ViewGrades() {
       )}
 
       <div className="flex justify-end mt-6">
-        <a href="#" className="text-ps-link underline hover:no-underline text-[11px]">Printer Friendly Page</a>
+        <a href="#" className="text-ps-link underline hover:no-underline text-[11px]">
+          Printer Friendly Page
+        </a>
       </div>
     </div>
   );
 }
 
-function ClassGrades({ term }: { term: NonNullable<ReturnType<typeof findTerm>> }) {
+function ClassGrades({ term }: { term: Term }) {
   return (
     <div className="mb-6">
       <SectionTitle>Class Grades - {term.label}</SectionTitle>
       <div className="border border-[#d9d9d9] p-2 bg-white">
         <div className="inline-flex border-b border-[#7e9ab8] mb-0">
-          <div className="bg-[#a6bad9] border border-[#7e9ab8] border-b-0 px-3 py-1 text-[11px] font-bold rounded-t">Official Grades</div>
+          <div className="bg-[#a6bad9] border border-[#7e9ab8] border-b-0 px-3 py-1 text-[11px] font-bold rounded-t">
+            Official Grades
+          </div>
         </div>
         <table className="ps-table w-full">
           <thead>
@@ -58,14 +62,22 @@ function ClassGrades({ term }: { term: NonNullable<ReturnType<typeof findTerm>> 
             </tr>
           </thead>
           <tbody>
-            {term.classes.map((c) => (
-              <tr key={c.classCode}>
-                <td><a href="#" className="text-ps-link underline hover:no-underline">{c.classCode}</a></td>
-                <td>{c.description}</td>
-                <td className="text-right">{c.units.toFixed(2)}</td>
-                <td>{c.grading}</td>
-                <td className="font-bold">{c.grade}</td>
-                <td className="text-right">{c.gradePoints !== null ? c.gradePoints.toFixed(3) : ""}</td>
+            {term.classes.map((row) => (
+              <tr key={row.classCode}>
+                <td>
+                  <a href="#" className="text-ps-link underline hover:no-underline">
+                    {row.classCode}
+                  </a>
+                </td>
+                <td>{row.description}</td>
+                <td className="text-right">
+                  {row.units !== null ? row.units.toFixed(2) : ""}
+                </td>
+                <td>{row.grading}</td>
+                <td className="font-bold">{row.grade}</td>
+                <td className="text-right">
+                  {row.gradePoints !== null ? row.gradePoints.toFixed(3) : ""}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -75,7 +87,11 @@ function ClassGrades({ term }: { term: NonNullable<ReturnType<typeof findTerm>> 
   );
 }
 
-function TermStatistics({ term }: { term: NonNullable<ReturnType<typeof findTerm>> }) {
+function fmt(n: number | null | undefined): string {
+  return n === null || n === undefined ? "" : n.toFixed(3);
+}
+
+function TermStatistics({ term }: { term: Term }) {
   const s = term.stats;
   return (
     <div>
@@ -90,24 +106,33 @@ function TermStatistics({ term }: { term: NonNullable<ReturnType<typeof findTerm
         </thead>
         <tbody>
           <tr><td className="font-bold">Units Toward GPA:</td><td></td><td></td></tr>
-          <tr><td className="pl-4">Taken</td><td className="text-right">{s.unitsTowardGPA.taken.toFixed(3)}</td><td className="text-right">{s.cumulativeUnitsTaken.toFixed(3)}</td></tr>
-          <tr><td className="pl-4">Passed</td><td className="text-right">{s.unitsTowardGPA.passed.toFixed(3)}</td><td className="text-right">{s.cumulativeUnitsPassed.toFixed(3)}</td></tr>
+          <tr><td className="pl-4">Taken</td><td className="text-right">{fmt(s.unitsTowardGPATaken.fromEnrollment)}</td><td className="text-right">{fmt(s.unitsTowardGPATaken.cumulative)}</td></tr>
+          <tr><td className="pl-4">Passed</td><td className="text-right">{fmt(s.unitsTowardGPAPassed.fromEnrollment)}</td><td className="text-right">{fmt(s.unitsTowardGPAPassed.cumulative)}</td></tr>
+          {s.inProgressTowardGPA && (
+            <tr><td className="pl-4">In Progress</td><td className="text-right">{fmt(s.inProgressTowardGPA.fromEnrollment)}</td><td className="text-right">{fmt(s.inProgressTowardGPA.cumulative)}</td></tr>
+          )}
           <tr><td colSpan={3}>&nbsp;</td></tr>
           <tr><td className="font-bold">Units Not for GPA:</td><td></td><td></td></tr>
-          <tr><td className="pl-4">Taken</td><td></td><td className="text-right">{s.cumulativeUnitsNotForGPATaken.toFixed(3)}</td></tr>
-          <tr><td className="pl-4">Passed</td><td></td><td></td></tr>
-          <tr><td className="pl-4">Transfer Units</td><td></td><td className="text-right">{s.cumulativeUnitsTransfer.toFixed(3)}</td></tr>
+          <tr><td className="pl-4">Taken</td><td className="text-right">{fmt(s.unitsNotForGPATaken.fromEnrollment)}</td><td className="text-right">{fmt(s.unitsNotForGPATaken.cumulative)}</td></tr>
+          <tr><td className="pl-4">Passed</td><td className="text-right">{fmt(s.unitsNotForGPAPassed?.fromEnrollment)}</td><td className="text-right">{fmt(s.unitsNotForGPAPassed?.cumulative)}</td></tr>
+          {s.inProgressNotForGPA && (
+            <tr><td className="pl-4">In Progress</td><td className="text-right">{fmt(s.inProgressNotForGPA.fromEnrollment)}</td><td className="text-right">{fmt(s.inProgressNotForGPA.cumulative)}</td></tr>
+          )}
+          <tr><td className="pl-4">Transfer Units</td><td className="text-right">{fmt(s.unitsTransfer.fromEnrollment)}</td><td className="text-right">{fmt(s.unitsTransfer.cumulative)}</td></tr>
           <tr><td colSpan={3}>&nbsp;</td></tr>
           <tr><td className="font-bold">GPA Calculation</td><td></td><td></td></tr>
-          <tr><td className="font-bold">Total Grade Points</td><td className="text-right">{s.totalGradePoints.toFixed(3)}</td><td className="text-right">{s.cumulativeTotalGradePoints.toFixed(3)}</td></tr>
-          <tr><td>/&nbsp;&nbsp;<strong>Units Taken Toward GPA</strong></td><td className="text-right">{s.unitsTakenTowardGPA.toFixed(3)}</td><td className="text-right">{s.cumulativeUnitsTakenTowardGPA.toFixed(3)}</td></tr>
-          <tr><td className="font-bold">= GPA</td><td className="text-right font-bold">{s.termGPA.toFixed(3)}</td><td className="text-right font-bold">{s.cumulativeGPA.toFixed(3)}</td></tr>
+          <tr><td className="font-bold">Total Grade Points</td><td className="text-right">{fmt(s.totalGradePoints.fromEnrollment)}</td><td className="text-right">{fmt(s.totalGradePoints.cumulative)}</td></tr>
+          <tr><td>/&nbsp;&nbsp;<strong>Units Taken Toward GPA</strong></td><td className="text-right">{fmt(s.unitsTakenTowardGPA.fromEnrollment)}</td><td className="text-right">{fmt(s.unitsTakenTowardGPA.cumulative)}</td></tr>
+          <tr><td className="font-bold">= GPA</td><td className="text-right font-bold">{s.gpa.fromEnrollment === null ? "" : s.gpa.fromEnrollment.toFixed(3)}</td><td className="text-right font-bold">{s.gpa.cumulative === null ? "" : s.gpa.cumulative.toFixed(3)}</td></tr>
         </tbody>
       </table>
-      <div className="mt-3 text-[11px]">
-        <span className="font-bold">Academic Standing</span>
-        <span className="ml-3">{s.academicStanding}</span>
-      </div>
+
+      {term.stats.academicStanding && (
+        <div className="mt-3 text-[11px]">
+          <span className="font-bold">Academic Standing</span>
+          <span className="ml-3">{term.stats.academicStanding}</span>
+        </div>
+      )}
     </div>
   );
 }
