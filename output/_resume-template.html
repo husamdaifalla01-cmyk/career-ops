@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>__TITLE__</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    color: #1a1a1a;
+    font-size: 10.5pt;
+    line-height: 1.4;
+  }
+  .page {
+    padding: 0.55in 0.6in;
+    max-width: 100%;
+  }
+  .name {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    margin-bottom: 4px;
+    color: #1a1a1a;
+  }
+  .contact {
+    text-align: center;
+    font-size: 10pt;
+    color: #444;
+    margin-bottom: 14px;
+  }
+  .contact span { margin: 0 6px; }
+  .summary {
+    text-align: center;
+    font-size: 10pt;
+    color: #333;
+    padding: 0 6px 14px;
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 16px;
+    line-height: 1.45;
+  }
+  h2.section {
+    color: #1f6fb2;
+    font-size: 11.5pt;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 16px 0 4px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #1f6fb2;
+  }
+  .role-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 9px;
+  }
+  .role-title { font-weight: 700; font-size: 10.8pt; }
+  .role-date  { font-size: 10pt; color: #333; }
+  .role-meta {
+    font-style: italic;
+    font-size: 10pt;
+    color: #555;
+    margin-top: 1px;
+  }
+  ul {
+    margin: 4px 0 6px 0;
+    padding-left: 18px;
+  }
+  ul li {
+    margin: 2px 0;
+    font-size: 10.2pt;
+    line-height: 1.4;
+  }
+  .edu-block { margin-top: 6px; }
+  .edu-meta { font-size: 10pt; color: #444; margin: 2px 0; }
+  .edu-meta b { color: #1a1a1a; }
+  .skills p {
+    margin: 4px 0;
+    font-size: 10.2pt;
+    line-height: 1.45;
+  }
+  .skills b { color: #1a1a1a; }
+
+  /* Cover letter overrides */
+  .letter .body p {
+    margin: 8px 0;
+    font-size: 10.6pt;
+    line-height: 1.5;
+  }
+  .letter ul { margin: 6px 0; padding-left: 20px; }
+  .letter ul li { margin: 4px 0; }
+  .letter .head-block { margin-bottom: 14px; }
+  .letter .head-block .name { text-align: left; letter-spacing: 0.06em; font-size: 18pt; }
+  .letter .head-block .contact { text-align: left; }
+  .letter .recipient { margin: 10px 0 14px; font-size: 10.4pt; }
+  .letter .subject { font-weight: 700; margin-bottom: 12px; }
+  .letter .salutation { margin-bottom: 8px; }
+  .letter .signoff { margin-top: 14px; }
+
+  @page { size: Letter; margin: 0; }
+</style>
+</head>
+<body>
+<div class="page">
+__BODY__
+</div>
+</body>
+</html>
