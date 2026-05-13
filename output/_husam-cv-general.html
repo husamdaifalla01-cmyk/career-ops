@@ -26,6 +26,8 @@
   ul{margin:3px 0 4px;padding-left:15px;page-break-inside:avoid;break-inside:avoid}
   .role-row,.role-meta{page-break-after:avoid;break-after:avoid}
   ul li{margin:1.5px 0;font-size:8.6pt;line-height:1.32}
+  .proj-desc{font-size:8.7pt;color:#1a1a1a;margin:2px 0 4px;line-height:1.35}
+  .proj-section{margin-top:18px}
   .edu-row{display:flex;justify-content:space-between;margin-top:6px}
   .edu-title{font-weight:700;font-size:10pt}
   .edu-date{font-size:9.4pt}
@@ -113,17 +115,19 @@
   </div>
 </div>
 
-<h2 class="section">Self-Directed Technical Development</h2>
+<h2 class="section proj-section">Self-Directed Technical Development</h2>
 
-<div class="role-row"><span class="role-title">verdict</span><span class="role-date">TypeScript, React, PostgreSQL, Supabase, Docker; AI-assisted build</span></div>
-<p>A governance platform that helps engineering and compliance teams catch policy violations across code repositories and AI provider integrations, flagging risks against regulatory standards (like CAN-SPAM) before they reach production.</p>
+<div class="role-row"><span class="role-title">verdict</span><span class="role-date">AI-assisted build</span></div>
+<div class="role-meta">TypeScript, React, PostgreSQL, Supabase, Docker</div>
+<p class="proj-desc">A governance platform that helps engineering and compliance teams catch policy violations across code repositories and AI provider integrations, flagging risks against regulatory standards (like CAN-SPAM) before they reach production.</p>
 <ul>
   <li>Catches violations like missing unsubscribe paths on commercial email code or AI-provider use cases that conflict with the provider's terms, blocking the merge at the pull-request gate before non-compliant code ships.</li>
   <li>A change in the outside world re-triggers compliance checks: when an AI vendor updates its terms of service, verdict re-scans every repo that depends on that vendor, flagging code that became non-compliant without anyone touching it.</li>
 </ul>
 
-<div class="role-row"><span class="role-title">curious-brain</span><span class="role-date">Python, Anthropic API, Claude Code; AI-assisted build</span></div>
-<p>An applied neuroscience system extending Claude Code with persistent memory, autonomous task execution, and nightly consolidation pipelines modeled on biological mechanisms.</p>
+<div class="role-row"><span class="role-title">curious-brain</span><span class="role-date">AI-assisted build</span></div>
+<div class="role-meta">Python, Anthropic API, Claude Code</div>
+<p class="proj-desc">An applied neuroscience system extending Claude Code with persistent memory, autonomous task execution, and nightly consolidation pipelines modeled on biological mechanisms.</p>
 <ul>
   <li>Layered on Claude Code as a persistent memory and context-injection system. Typed records (semantic, episodic, procedural) with salience scoring, decay rates, and Hebbian-style connections feed an append-only event log; every new session opens with active project state, prior decisions, and synthesized overnight research already loaded.</li>
   <li>Project-management discipline embedded as automated cycles: per-venture sprints, OKRs, and initiatives advancing via commit tags, daily standups, afternoon reviews, weekly retrospectives, and 48-hour forward-motion alerts. Decisions route through layered reasoning: input classification by stakes, multi-agent deliberation, and tiered execution gates that escalate risk for human approval.</li>
