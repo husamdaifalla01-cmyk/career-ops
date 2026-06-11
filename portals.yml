@@ -1,0 +1,251 @@
+# Portal Scanner Configuration — Husam Ahmed (Canada, >=$70K CAD, top-3-applicant hunt)
+# Archetypes: federal PM/AS ops, identity/fraud ops, regulatory compliance,
+# data/BI analyst, GovTech contractors, health evidence ops, AI governance ops.
+
+location_filter:
+  always_allow:
+    - "Ottawa"
+    - "Gatineau"
+    - "National Capital Region"
+    - "Canada"
+  allow:
+    - "Remote"
+    - "Ottawa"
+    - "Gatineau"
+    - "Ontario"
+    - "Canada"
+    - "Toronto"        # remote-eligible orgs HQ'd in Toronto often pass
+  block:
+    - "United States"
+    - "USA only"
+    - "India"
+    - "United Kingdom"
+    - "Germany"
+    - "Australia"
+    - "Singapore"
+
+title_filter:
+  positive:
+    # Federal / program ops
+    - "Program Officer"
+    - "Program Advisor"
+    - "Operations Officer"
+    - "Case Processing"
+    - "Case Management"
+    - "Program Assistant"
+    - "Service Delivery"
+    - "Integrity"
+    # Identity / fraud / compliance
+    - "Fraud"
+    - "Identity"
+    - "KYC"
+    - "AML"
+    - "Compliance"
+    - "Regulatory"
+    - "Quality Assurance"
+    - "Quality Systems"
+    - "Privacy"
+    # Data / BI
+    - "Data Analyst"
+    - "Business Analyst"
+    - "Operations Analyst"
+    - "Reporting Analyst"
+    - "Business Intelligence"
+    - "Power BI"
+    - "Research Analyst"
+    - "Policy Analyst"
+    # Health evidence
+    - "Research Assistant"
+    - "Clinical Research"
+    - "Evidence"
+    # AI governance ops
+    - "AI Governance"
+    - "Responsible AI"
+    - "AI Policy"
+    - "Trust and Safety"
+  negative:
+    - "Intern"
+    - "Co-op"
+    - "Director"
+    - "VP"
+    - "Vice President"
+    - "Head of"
+    - "Principal"
+    - "Staff "
+    - "Senior Manager"
+    - "Nurse"
+    - "Physician"
+    - "Engineer"        # software/eng titles are out of lane
+    - "Developer"
+    - "Scientist II"
+    - "Bilingual"        # imperative-bilingual titles; French roles re-enter via manual review
+  seniority_boost:
+    - "Analyst"
+    - "Officer"
+    - "Specialist"
+    - "Coordinator"
+
+search_queries:
+  # -- Federal (GC Jobs) --
+  - name: GC Jobs — PM/AS program & ops officer
+    query: 'site:emploisfp-psjobs.cfp-psc.gc.ca "program officer" OR "operations officer" OR "case processing" PM-02 OR PM-03 OR AS-02'
+    enabled: true
+  - name: GC Jobs — data/reporting analyst
+    query: 'site:emploisfp-psjobs.cfp-psc.gc.ca "data analyst" OR "reporting" OR "Power BI" AS-02 OR AS-03 OR EC-02'
+    enabled: true
+  - name: GC Jobs — integrity / verification / biometrics
+    query: 'site:emploisfp-psjobs.cfp-psc.gc.ca integrity OR biometrics OR "identity" officer OR analyst'
+    enabled: true
+  - name: GC Jobs — pools and inventories (analyst/officer)
+    query: 'site:emploisfp-psjobs.cfp-psc.gc.ca inventory OR pool analyst OR officer "anticipatory"'
+    enabled: true
+  - name: IRCC careers — internal-adjacent public postings
+    query: '"Immigration, Refugees and Citizenship Canada" job posting PM-02 OR AS-02 OR "program officer" 2026'
+    enabled: true
+
+  # -- Identity / fraud / fintech compliance --
+  - name: Fraud & identity analyst — Canada remote
+    query: '"fraud analyst" OR "identity verification" OR "KYC analyst" Canada remote OR Ottawa OR Toronto salary'
+    enabled: true
+  - name: Verafin / bank financial crimes
+    query: 'Verafin OR "financial crimes" analyst Canada remote "case management" OR investigation'
+    enabled: true
+
+  # -- Regulatory / compliance / water-enviro --
+  - name: Compliance & regulatory analyst — Ontario
+    query: '"compliance analyst" OR "regulatory analyst" OR "regulatory affairs associate" Ottawa OR Ontario water OR environmental OR quality'
+    enabled: true
+  - name: Water quality / environmental compliance
+    query: '"water quality" OR "drinking water" analyst OR coordinator compliance Ontario job'
+    enabled: true
+
+  # -- Data / BI / ops analyst (Ottawa + Crown corps) --
+  - name: Power BI analyst — Ottawa/remote Canada
+    query: '"Power BI" "data analyst" OR "operations analyst" OR "business analyst" Ottawa OR "remote Canada" job posting'
+    enabled: true
+  - name: Crown corps analyst roles
+    query: 'NAV CANADA OR "Canada Post" OR CMHC OR "Export Development Canada" OR "Bank of Canada" analyst Power BI OR reporting OR operations careers'
+    enabled: true
+
+  # -- GovTech / contractors (clearance bait) --
+  - name: Cleared analyst — NCR contractors
+    query: '"reliability clearance" analyst OR "business analyst" Ottawa OR Gatineau CGI OR Calian OR ADGA OR Coradix OR Maplesoft'
+    enabled: true
+  - name: GCMS-experienced contractor roles
+    query: 'GCMS analyst OR consultant IRCC contract Ottawa'
+    enabled: true
+
+  # -- Health evidence ops --
+  - name: CDA-AMC / CIHI / health research ops
+    query: 'CDA-AMC OR CIHI OR "Ottawa Hospital Research Institute" research assistant OR analyst OR coordinator careers'
+    enabled: true
+
+  # -- AI governance ops (stretch) --
+  - name: AI governance / responsible AI ops — Canada
+    query: '"AI governance" OR "responsible AI" analyst OR coordinator OR "program officer" Canada job'
+    enabled: true
+
+tracked_companies:
+
+  # -- Health evidence / data orgs --
+  - name: CDA-AMC
+    careers_url: https://www.cda-amc.ca/careers
+    scan_method: websearch
+    scan_query: 'site:cda-amc.ca careers OR jobs analyst OR assistant OR coordinator'
+    notes: "Canada's Drug Agency (ex-CADTH). LIVE THREAD: Clinical Research Assistant materials staged."
+    enabled: true
+  - name: CIHI
+    careers_url: https://www.cihi.ca/en/careers
+    scan_method: websearch
+    scan_query: 'site:cihi.ca careers analyst Ottawa OR Toronto'
+    notes: "Canadian Institute for Health Information. Ottawa office. Analyst ladder pays 70K+."
+    enabled: true
+
+  # -- Identity / fraud / fintech --
+  - name: Verafin
+    careers_url: https://verafin.com/careers/
+    scan_method: websearch
+    scan_query: 'Verafin careers analyst OR "customer success" remote Canada'
+    notes: "Nasdaq-owned, St. John's + remote Canada. Fraud/AML platform — strongest private identity-archetype employer."
+    enabled: true
+  - name: Interac
+    careers_url: https://www.interac.ca/en/about/careers/
+    scan_method: websearch
+    scan_query: 'Interac careers fraud OR identity OR compliance analyst'
+    notes: "Toronto/hybrid. Identity + payments fraud."
+    enabled: true
+  - name: Trulioo
+    careers_url: https://www.trulioo.com/company/careers
+    scan_method: websearch
+    scan_query: 'Trulioo careers analyst OR operations OR compliance'
+    notes: "Vancouver/remote. Identity verification (IDV) vendor."
+    enabled: true
+  - name: Equifax Canada
+    careers_url: https://careers.equifax.com
+    scan_method: websearch
+    scan_query: 'Equifax Canada careers fraud OR identity analyst Toronto OR remote'
+    enabled: true
+
+  # -- GovTech / federal contractors (NCR) --
+  - name: Calian
+    careers_url: https://careers.calian.com
+    scan_method: websearch
+    scan_query: 'Calian careers business analyst OR operations Ottawa reliability'
+    notes: "Ottawa. Federal services contractor — values held Reliability."
+    enabled: true
+  - name: CGI (Federal)
+    careers_url: https://cgi.njoyn.com
+    scan_method: websearch
+    scan_query: 'CGI careers business analyst Ottawa federal clearance'
+    enabled: true
+  - name: ADGA
+    careers_url: https://www.adga.ca/careers
+    scan_method: websearch
+    scan_query: 'ADGA careers analyst Ottawa'
+    enabled: true
+
+  # -- Crown corps / Ottawa anchors --
+  - name: NAV CANADA
+    careers_url: https://www.navcanada.ca/en/careers
+    scan_method: websearch
+    scan_query: 'NAV CANADA careers analyst data OR operations Ottawa'
+    enabled: true
+  - name: CMHC
+    careers_url: https://www.cmhc-schl.gc.ca/about-us/careers
+    scan_method: websearch
+    scan_query: 'CMHC careers analyst Ottawa OR remote'
+    enabled: true
+  - name: Export Development Canada
+    careers_url: https://www.edc.ca/en/about-us/careers.html
+    scan_method: websearch
+    scan_query: 'EDC careers analyst compliance OR operations Ottawa'
+    enabled: true
+  - name: Bank of Canada
+    careers_url: https://careers.bankofcanada.ca
+    scan_method: websearch
+    scan_query: 'Bank of Canada careers analyst operations OR data Ottawa'
+    enabled: true
+  - name: Canada Post
+    careers_url: https://jobs.canadapost.ca
+    scan_method: websearch
+    scan_query: 'Canada Post careers analyst data OR operations Ottawa'
+    enabled: true
+
+  # -- Water / environmental --
+  - name: City of Ottawa
+    careers_url: https://ottawa.ca/en/city-hall/jobs-city
+    scan_method: websearch
+    scan_query: 'City of Ottawa jobs water quality OR compliance OR program analyst'
+    notes: "Drinking water services + program analyst ladder."
+    enabled: true
+  - name: ALS Environmental
+    careers_url: https://www.alsglobal.com/en/careers
+    scan_method: websearch
+    scan_query: 'ALS Environmental careers Ottawa OR Ontario water quality'
+    enabled: true
+
+  # -- AI (Canada, ops-shaped roles only) --
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "Toronto + remote. Watch for ops/T&S/program roles only — not engineering."
+    enabled: true

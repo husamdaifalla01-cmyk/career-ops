@@ -1,0 +1,102 @@
+# Career-Ops Profile Configuration — Husam Ahmed
+# Single source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Husam Ahmed"
+  email: "husamdaifalla01@gmail.com"
+  phone: "(647) 685-6908"   # NEVER include in generated outreach messages (global rule)
+  location: "Ottawa, ON, Canada"
+  linkedin: ""               # TODO(Husam): add LinkedIn URL — needed for Boolean-surfacing checks
+  github: "github.com/husamdaifalla01-cmyk"
+  portfolio_url: ""
+
+target_roles:
+  primary:
+    - "Program/Operations Officer (federal PM-02/PM-03, AS-02)"
+    - "Identity / Fraud / Compliance Operations Analyst (private)"
+    - "Data / BI / Operations Analyst"
+  archetypes:
+    # Full recruiter signal packages live in modes/_profile.md
+    - name: "Federal Program & Operations Officer"
+      level: "PM-02 / PM-03 / AS-02"
+      fit: "primary"
+    - name: "Identity & Fraud Operations Analyst"
+      level: "Analyst / Specialist"
+      fit: "primary"
+    - name: "Regulatory & Compliance Analyst"
+      level: "Analyst"
+      fit: "primary"
+    - name: "Data / BI / Operations Analyst"
+      level: "Analyst (junior-mid)"
+      fit: "secondary"
+    - name: "GovTech / Federal Contractor Analyst"
+      level: "Analyst / Consultant"
+      fit: "secondary"
+    - name: "Health Evidence & Clinical Operations"
+      level: "Assistant / Coordinator / Analyst"
+      fit: "secondary"
+    - name: "Federal Data/Reporting Analyst (EC stream)"
+      level: "EC-02 (education flag — see knockouts)"
+      fit: "adjacent"
+    - name: "AI Governance / Policy Operations"
+      level: "Analyst / Associate"
+      fit: "adjacent"
+
+narrative:
+  headline: "Federal operations & compliance professional — identity resolution, regulatory evidence, Power BI"
+  exit_story: >
+    Two concurrent roles since 2024: resolving national-intake identity casework in GCMS at
+    IRCC's Operations Support Centre, and building the regulatory/public-health evidence case
+    for real-time water monitoring at Stelis. Looking for the next level: an analyst/officer
+    role that uses the rare combination of federal operations depth, regulatory evidence work,
+    and hands-on Power BI/Excel analysis.
+  superpowers:
+    - "Identity/entity resolution at national scale (GCMS, biometrics, UCI merges)"
+    - "Regulatory evidence synthesis: rules -> change log -> SOP -> briefing note"
+    - "Multi-source data modeling in Power BI/Excel that decision-makers actually use"
+    - "Federal-ready: Active Reliability Status, IRPA/Privacy Act applied daily, internal IRCC"
+    - "Two concurrent roles held for 1.5+ years — throughput and reliability"
+  proof_points:
+    - name: "GCMS identity resolution / Data Integrity national intake"
+      url: ""
+      hero_metric: "National intake triage for PPMI + IMM; 60+ VACs/missions supported"
+    - name: "ColiMinder vs lab-method validation"
+      url: ""
+      hero_metric: "Percent-agreement + false-positive analysis across pilot sites"
+    - name: "Cross-jurisdictional exceedance heat maps (Power BI)"
+      url: ""
+      hero_metric: "Drove the team's market-prioritization decisions"
+    - name: "Rogers retention"
+      url: ""
+      hero_metric: ">90% client retention via CRM analysis + follow-up workflows"
+
+compensation:
+  target_range: "$70K-85K"
+  currency: "CAD"
+  minimum: "$70K"            # HARD floor — total comp. Reject roles whose ceiling is below this.
+  positioning: "Quote mid-band, never the ceiling (recruiter convenience signal)."
+  federal_mapping: >
+    Floor maps to ~PM-02/AS-02/EC-02 max step and above. PM-03/AS-03/EC-03/IT-01
+    clear the floor comfortably. CR-05/PM-01 do NOT clear it. Verify current
+    collective-agreement rates at evaluation time — do not trust cached numbers.
+  location_flexibility: "Ottawa/NCR on-site or hybrid; remote anywhere in Canada"
+
+location:
+  country: "Canada"
+  city: "Ottawa"
+  timezone: "ET"
+  visa_status: "No sponsorship needed (Canada)"
+
+# ---- Hard knockout facts (Gate 1 / federal essentials) — keep brutally accurate ----
+knockouts:
+  federal_classification: "Substantive CR-04, acting PM-01 — 'substantive at level' areas of selection above CR-04 are knockouts unless actings count"
+  security_clearance: "Reliability (active). NOT Secret — Secret-required roles need sponsorship willingness from hiring org"
+  language: "French working knowledge, NOT SLE-tested. Imperative bilingual (BBB+) = knockout; non-imperative = viable"
+  education: "BSc Biology (uOttawa, Dec 2024). Does NOT auto-meet EC education standard — check 'acceptable combination' provision per posting. No graduate degree: MSc/MA-required roles are knockouts"
+  methodology_gaps: "No formal systematic review / meta-analysis (PRISMA, GRADE, Cochrane). No SQL/Python on CV yet (Google Data Analytics cert in progress)"
+  notice: "Internal IRCC: fast federal onboarding; private sector: standard 2-4 weeks"
+
+# ---- Live threads (do not lose) ----
+active_threads:
+  - "IRCC Visitors Program: emailed manager re internal EC-02 acting — follow up, treat as live"
+  - "CDA-AMC Clinical Research Assistant: application materials staged, not yet submitted"
