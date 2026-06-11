@@ -88,7 +88,7 @@ export const roles = [
     competencies: ['Case Management (GCMS)', 'IRPA Application', 'Data Integrity', 'Case Triage at National Intake', 'Briefing Notes', 'SOP Development', 'Excel Pivot Analysis', 'Power BI Reporting'],
     jobs: [
       irccJob([IRCC.identity, IRCC.fraud_tactics, IRCC.irpa, IRCC.triage, IRCC.citizen]),
-      stelisJob([STELIS.brief, STELIS.reg, STELIS.changelog, STELIS.data]),
+      stelisJob([STELIS.brief, STELIS.reg, STELIS.changelog, STELIS.data, STELIS.validation]),
       rogersJob([ROGERS.ops, ROGERS.kyc, ROGERS.train, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.records]),
     ],
@@ -112,7 +112,7 @@ export const roles = [
     competencies: ['KYC and Client Due Diligence', 'Regulatory Compliance', 'Case Analysis and Triage', 'Compliance Documentation and SOPs', 'Breach Handling', 'Regulatory Change Tracking', 'Excel Pivot Analysis', 'Power BI Reporting'],
     jobs: [
       irccJob([IRCC.irpa, IRCC.identity, IRCC.fraud_tactics, IRCC.triage, IRCC.pivot]),
-      stelisJob([STELIS.reg, STELIS.changelog, STELIS.brief, STELIS.validation]),
+      stelisJob([STELIS.reg, STELIS.changelog, STELIS.brief, STELIS.validation, STELIS.workflow]),
       rogersJob([ROGERS.kyc, ROGERS.train, ROGERS.ops, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.standard, ELEMENTAL.records]),
     ],
@@ -136,7 +136,7 @@ export const roles = [
     competencies: ['Privacy Act Application', 'Controlled Disclosure Decisions', 'Breach Handling', 'Records Management', 'Case Triage and Tracking', 'Audit-Ready Documentation', 'SOP Development', 'Excel Analysis'],
     jobs: [
       irccJob([IRCC.irpa, IRCC.citizen, IRCC.triage, IRCC.identity, IRCC.pivot]),
-      stelisJob([STELIS.reg, STELIS.changelog, STELIS.brief, STELIS.workflow]),
+      stelisJob([STELIS.reg, STELIS.changelog, STELIS.brief, STELIS.workflow, STELIS.data]),
       rogersJob([ROGERS.kyc, ROGERS.train, ROGERS.ops, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.standard, ELEMENTAL.records]),
     ],
@@ -160,7 +160,7 @@ export const roles = [
     competencies: ['Data Quality and Integrity', 'Master Data and Entity Resolution', 'Anomaly Detection', 'Data Standardization and Cleansing', 'Power BI Dashboards', 'Excel (Pivot Tables, Lookups)', 'Process Documentation', 'Operational Reporting'],
     jobs: [
       irccJob([IRCC.identity_dq, IRCC.pivot, IRCC.triage, IRCC.access, IRCC.citizen]),
-      stelisJob([STELIS.data, STELIS.validation, STELIS.reg, STELIS.brief]),
+      stelisJob([STELIS.data, STELIS.validation, STELIS.reg, STELIS.brief, STELIS.changelog]),
       rogersJob([ROGERS.retention, ROGERS.kyc, ROGERS.train, ROGERS.ops]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.standard, ELEMENTAL.records]),
     ],
@@ -184,7 +184,7 @@ export const roles = [
     competencies: ['Business Process Analysis', 'Workflow Mapping', 'Process Documentation and SOPs', 'System Access Administration', 'Service Request Triage', 'Data Quality', 'Power BI Dashboards', 'Excel (Pivot Tables, Lookups)'],
     jobs: [
       irccJob([IRCC.access, IRCC.triage, IRCC.pivot, IRCC.irpa, IRCC.identity]),
-      stelisJob([STELIS.workflow, STELIS.brief, STELIS.data, STELIS.reg]),
+      stelisJob([STELIS.workflow, STELIS.brief, STELIS.data, STELIS.reg, STELIS.changelog]),
       rogersJob([ROGERS.train, ROGERS.ops, ROGERS.retention, ROGERS.kyc]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.standard, ELEMENTAL.records]),
     ],
@@ -208,7 +208,7 @@ export const roles = [
     competencies: ['Identity Verification', 'Anomaly Detection and Escalation', 'Case Triage at Volume', 'False-Positive Analysis', 'KYC and Due Diligence', 'Team Training and Coaching', 'Excel Pivot Analysis', 'Power BI Reporting'],
     jobs: [
       irccJob([IRCC.identity, IRCC.fraud_tactics, IRCC.triage, IRCC.pivot, IRCC.access]),
-      stelisJob([STELIS.validation, STELIS.brief, STELIS.data, STELIS.changelog]),
+      stelisJob([STELIS.validation, STELIS.brief, STELIS.data, STELIS.changelog, STELIS.workflow]),
       rogersJob([ROGERS.kyc_fraud, ROGERS.train, ROGERS.ops, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.records]),
     ],
@@ -232,7 +232,7 @@ export const roles = [
     competencies: ['Identity Investigation', 'Queue-Based Casework', 'Documented Decision Rationale', 'Credit and KYC Decisions', 'Anomaly Detection', 'False-Positive Analysis', 'Excel Pivot Analysis', 'Power BI Reporting'],
     jobs: [
       irccJob([IRCC.identity, IRCC.fraud_tactics, IRCC.triage, IRCC.pivot, IRCC.citizen]),
-      stelisJob([STELIS.validation, STELIS.brief, STELIS.data, STELIS.changelog]),
+      stelisJob([STELIS.validation, STELIS.brief, STELIS.data, STELIS.changelog, STELIS.workflow]),
       rogersJob([ROGERS.kyc_fraud, ROGERS.train, ROGERS.ops, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.records]),
     ],
