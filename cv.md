@@ -19,7 +19,7 @@ Federal operations and compliance professional at IRCC's Operations Support Cent
 
 ### Program Assistant / Acting Case Processing Agent (CR-04, Acting PM-01)
 **Immigration, Refugees and Citizenship Canada, Operations Support Centre** / Ottawa, ON — Aug 2024 to Present
-*(Held concurrently with the Stelis research role below — two simultaneous roles, not sequential jobs.)*
+*(Held concurrently with the Stelis research role below from Aug 2024 to Jul 2025 — two simultaneous roles, not sequential jobs.)*
 
 - Resolve probabilistic identity matches in IRCC's Global Case Management System (GCMS) by cross-referencing biographic, biometric, and travel-document evidence across two or more associated client records (including multi-record household cases), then commit master-record corrections (UCI merges, biometric associations and disassociations, profile relinking) to restore case integrity for federal applicants.
 - Perform in-depth identity analysis on client files, examining passports and travel documents directly and drawing on close familiarity with the fraudulent tactics applicants use to try to defeat identity controls.
@@ -29,9 +29,9 @@ Federal operations and compliance professional at IRCC's Operations Support Cent
 - Administer GCMS access and provide biometric operations support for staff at 60+ Visa Application Centres and Missions abroad, handling account provisioning, permission changes, and technical issues raised on biometric collection across time zones with each action logged.
 - Confirm citizenship status by reviewing naturalization records, certificate issuance, and grant or revocation history in IRCC systems, returning verified status with supporting documentation cited for downstream officers and partner program requests.
 
-### Water Quality Researcher, Quality Systems
-**Stelis Environmental Solutions** / Ottawa, ON — Nov 2023 to Present
-*(Concurrent with the IRCC role above.)*
+### Water Quality Researcher
+**Stelis Environmental Solutions** / Ottawa, ON — Nov 2023 to Jul 2025
+*(Held concurrently with the IRCC role above, Aug 2024 to Jul 2025. Independent contractor, ~8 hrs/week; equity-compensated.)*
 
 - Combine and clean public drinking-water and wastewater monitoring data from Health Canada, the US EPA, and provincial reports, standardizing different reporting formats so they can be compared side by side, then build cross-jurisdictional Power BI dashboards, including exceedance heat maps, that drive the team's market prioritization.
 - Compare real-time ColiMinder readings against culture-based lab results in Excel pivot tables, calculating percent agreement and false-positive rates across pilot sites to quantify how closely the real-time method tracks the lab benchmark.

@@ -45,17 +45,18 @@ target_roles:
 narrative:
   headline: "Federal operations & compliance professional — identity resolution, regulatory evidence, Power BI"
   exit_story: >
-    Two concurrent roles since 2024: resolving national-intake identity casework in GCMS at
-    IRCC's Operations Support Centre, and building the regulatory/public-health evidence case
-    for real-time water monitoring at Stelis. Looking for the next level: an analyst/officer
-    role that uses the rare combination of federal operations depth, regulatory evidence work,
-    and hands-on Power BI/Excel analysis.
+    From Aug 2024 to Jul 2025 held two concurrent roles: resolving national-intake identity
+    casework in GCMS at IRCC's Operations Support Centre (ongoing), and building the
+    regulatory/public-health evidence case for real-time water monitoring at Stelis (contract
+    ended Jul 2025). Looking for the next level: an analyst/officer role that uses the rare
+    combination of federal operations depth, regulatory evidence work, and hands-on Power
+    BI/Excel analysis.
   superpowers:
     - "Identity/entity resolution at national scale (GCMS, biometrics, UCI merges)"
     - "Regulatory evidence synthesis: rules -> change log -> SOP -> briefing note"
     - "Multi-source data modeling in Power BI/Excel that decision-makers actually use"
     - "Federal-ready: Active Reliability Status, IRPA/Privacy Act applied daily, internal IRCC"
-    - "Two concurrent roles held for 1.5+ years — throughput and reliability"
+    - "Held two concurrent roles (IRCC + Stelis) Aug 2024-Jul 2025 — throughput and reliability"
   proof_points:
     - name: "GCMS identity resolution / Data Integrity national intake"
       url: ""

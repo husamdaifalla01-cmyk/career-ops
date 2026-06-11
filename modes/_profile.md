@@ -123,10 +123,14 @@ Otherwise label it **B-pile fit** in the report. Never blur the two categories.
 
 ## Tenure Framing (Gate 2 protection)
 
-IRCC (Aug 2024–present) and Stelis (Nov 2023–present) are **two simultaneous roles held
-concurrently for 1.5+ years**, on top of 3+ years at Rogers. Every CV variant and cover letter
-must make concurrency unambiguous ("concurrent with", "in parallel"). Never let it read as
-job-hopping. Rogers 2021–2024 anchors stability.
+IRCC (Aug 2024–present) and Stelis (Nov 2023–**Jul 2025**) were **two simultaneous roles held
+concurrently** (overlap Aug 2024–Jul 2025), on top of 3+ years at Rogers. Stelis was an
+independent-contractor role (~8 hrs/week, equity-compensated; contract auto-renewed until it
+lapsed mid-2025). Every CV variant and cover letter must make concurrency unambiguous
+("concurrent with", "in parallel") and keep Stelis in PAST tense now that it has ended. Never
+let it read as job-hopping. Rogers 2021–2024 anchors stability.
+**Stelis title is exactly "Water Quality Researcher" (per signed contract Data Schedule) — do
+NOT embellish to "Analyst" or "Quality Systems" on the CV; the bullets carry the analyst signal.**
 
 ## Adaptive Framing
 
