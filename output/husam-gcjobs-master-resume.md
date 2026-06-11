@@ -40,7 +40,7 @@ Full-time (37.5 hrs/week), indeterminate
 - Extract data from GCMS reporting tools into Excel and run pivot analyses to compare records, confirm statuses, and report discrepancies and anomalies; recommend corrective handling to the unit.
 - Confirm citizenship status from naturalization, issuance, and revocation records, citing documentation for downstream officers.
 - File, retrieve, and manage case documentation and records in GCDocs and GCMS, maintaining version control and audit-ready records.
-- Administer GCMS access for staff at 60+ Visa Application Centres and Missions abroad (provisioning, permissions, urgent technical issues), with each action logged.
+- Provide biometric operations support through the Biometrics Operations Support Unit (BOSU): administer GCMS access for staff at 60+ Visa Application Centres and Missions abroad (provisioning, permissions, urgent technical issues), with each action logged.
 
 ------------------------------------------------------------
 WATER QUALITY RESEARCHER
