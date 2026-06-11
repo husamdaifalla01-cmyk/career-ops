@@ -27,14 +27,14 @@ that is the whole point. Three are marked DO NOT CLAIM: answer No. Two are JUDGM
 | AS05 develop & deliver training / info sessions | **YES** | Rogers |
 | AS05 prepare reports/presentations + advice to mgmt | **YES** | strong |
 | AS05 supervise employees / direct others' work | **YES** | Rogers |
-| AS05 materiel mgmt / disposal / procurement | **NO — DO NOT CLAIM** | no experience |
+| AS05 materiel mgmt / disposal / procurement | **YES** | Rogers procurement + receiving + cash/budget |
 | AS05 develop/maintain client relationships + best practices | **YES** | Rogers |
 | AS06 development & delivery of projects | **JUDGMENT** | contributor, not lead — see note |
 | AS06 research/analysis/synthesis to coordinate a project | **YES** | strong |
-| AS06 develop work/business plans | **NO — DO NOT CLAIM** | not done |
+| AS06 develop work/business plans | **YES (qualified)** | Rogers retention/offers planning to budget |
 | AS06 consult with multiple stakeholders | **YES** | strong |
 | AS06 supervise a team (plan/assign/day-to-day/performance) | **YES** | Rogers |
-| AS06 life cycle mgmt of materiel | **NO — DO NOT CLAIM** | no experience |
+| AS06 life cycle mgmt of materiel | **YES (qualified)** | Rogers procure→receive→stock; confirm disposal |
 | AS06 manage & resolve complex* issues | **YES** | strongest — textbook match |
 
 ---
@@ -104,7 +104,8 @@ Defensible Yes: *At Stelis I reported to and supported the Chief Operating Offic
 **YES.** As Manager on Duty at Rogers, I led a team of three associates over three years — directing their day-to-day work on the floor, assigning tasks, reviewing their customer documentation and transactions for compliance, and holding them accountable to documented procedure and performance standards.
 
 ## AS05 — Materiel management or disposal services and/or procurement in a fast-paced environment
-**NO — DO NOT CLAIM.** You have no materiel-management, disposal, or procurement experience. (Retail cash and inventory control at Rogers is not materiel management in the federal sense; claiming it on a procurement-focused AS pool invites a question you cannot answer at the board. Answer No honestly — it costs you nothing on a screen-in.)
+**YES.** As Manager on Duty at Rogers (May 2021 to Aug 2024), a fast-paced retail store, I procured and received product inventory, managed stock levels, and was accountable for cash and inventory controls. I performed daily cash audits and managed the store's cash-in-hand (BPO credit) against a set monthly budget, reconciling balances and safeguarding store funds and materiel day to day. This covered ordering, receiving, reconciling, and securing both product and funds in a high-volume environment.
+> Truthful framing: this is **retail** procurement and materiel handling, not government contracting. That's fine — the asset says "in a fast paced environment," which this was. Don't imply federal-procurement (RFP/contracting) experience you don't have.
 
 ## AS05 — Developing and maintaining client or stakeholder relationships, including managing customer-service issues, and developing best practices
 **YES.** At Rogers I developed and maintained customer relationships and managed customer-service issues, building structured follow-up workflows — a best practice I introduced — that produced an auditable record of each interaction and kept client retention above 90%. At IRCC I maintain service relationships with downstream officers and overseas missions and help standardize how recurring access and case issues are handled.
@@ -120,7 +121,8 @@ Defensible Yes: *At Stelis I contributed to the development and delivery of the 
 **YES.** For the Stelis monitoring pilot, I researched federal and provincial drinking-water regulations (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03, US EPA), synthesized the testing requirements the method had to satisfy, and combined multi-source monitoring data into a single comparable analysis that coordinated the pilot's evaluation against those standards. This required pulling vague and inconsistent information from many sources into a usable basis for decisions.
 
 ## AS06 — Developing work/business plans
-**NO — DO NOT CLAIM.** You have not authored work or business plans. Your market-prioritization analysis informed strategy, but that is not the same as developing a work or business plan. Answer No.
+**YES (qualified).** As Manager on Duty at Rogers, I worked with the store manager to develop customer-retention and foot-traffic plans, structuring offers and outreach within a defined monthly budget (BPO credit) and adjusting them based on results. This required planning activities against a budget and measuring whether they worked.
+> Frame this as **operational/retail planning to a budget**, not corporate business-plan authorship. It's defensible at that level; don't oversell it as enterprise strategy. If the board's intent is formal business-plan development, answer No.
 
 ## AS06 — Consulting with multiple stakeholders
 **YES.** At IRCC I consult internal teams and overseas missions to validate identity cases and determine compliant information-sharing before committing record corrections. At Stelis I consulted project leads and subject-matter experts to validate regulatory interpretations and pilot findings. I routinely reconcile input from multiple parties before acting.
@@ -129,7 +131,8 @@ Defensible Yes: *At Stelis I contributed to the development and delivery of the 
 **YES.** As Manager on Duty at Rogers, I supervised a team of three over three years — planning shift coverage, assigning daily tasks and sales and compliance responsibilities, managing day-to-day floor activities, and managing performance through coaching, shift huddles, and accountability to documented standards.
 
 ## AS06 — Life cycle management of materiel management
-**NO — DO NOT CLAIM.** No materiel-management experience. Answer No.
+**YES (qualified).** At Rogers I managed product inventory across its store life cycle: procurement and ordering, receiving, stock management, and securing inventory, alongside daily cash control against a budget. I handled goods from acquisition through to in-store management.
+> **[CONFIRM disposal]** "Life cycle" implies the end stage too. If you also handled returned/defective-stock write-offs or disposal, add one line saying so and this is a clean Yes. If you did not handle disposal, either add "though not formal disposal" or answer No — don't claim the full life cycle if you only did acquire/receive/manage.
 
 ## AS06 — Managing and resolving complex* issues
 **YES.** Resolving identity discrepancies in GCMS is a direct example of managing complex issues as defined. I work from vague or incomplete information arriving from many sources — biographic, biometric, and travel-document evidence across two or more client records — and I must consult internal teams and overseas missions and validate the evidence before committing master-record corrections (UCI merges, biometric associations and disassociations). Because an error affects a person's federal application, each case requires careful, multi-source consultation and validation before resolution.
