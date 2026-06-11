@@ -16,23 +16,12 @@ const DATE = 'June 11, 2026';
 
 const esc = (s) => s; // content is authored HTML-safe
 
-// One-page compaction: tighter vertical rhythm than the stock template
+// Two-page CV format: mild compaction only (keeps stock template rhythm)
 const COMPACT_CSS = `
-  .header { margin-bottom: 12px; }
-  .header h1 { font-size: 25px; margin-bottom: 4px; }
-  .section { margin-bottom: 11px; }
-  .section-title { padding-bottom: 3px; margin-bottom: 7px; font-size: 11.5px; }
-  .summary-text { line-height: 1.5; font-size: 10.5px; }
-  .competencies-grid { gap: 5px; }
-  .competency-tag { padding: 3px 8px; font-size: 9.5px; }
-  .job { margin-bottom: 9px; }
-  .job-header { margin-bottom: 2px; }
-  .job-role { margin-bottom: 3px; }
-  .job ul { margin-top: 3px; }
-  .job li { line-height: 1.45; font-size: 10px; margin-bottom: 2px; }
-  .edu-desc { line-height: 1.4; }
-  .edu-item { margin-bottom: 5px; }
-  .cert-item { margin-bottom: 3px; }
+  .header { margin-bottom: 14px; }
+  .section { margin-bottom: 14px; }
+  .job { margin-bottom: 11px; }
+  .job li { line-height: 1.5; margin-bottom: 3px; }
 </style>`;
 
 const jobHtml = (j) => `
