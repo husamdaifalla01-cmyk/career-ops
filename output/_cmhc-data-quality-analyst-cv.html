@@ -2,410 +2,102 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Husam Ahmed — CV</title>
+<title>Husam Ahmed - CV</title>
 <style>
-  @font-face {
-    font-family: 'Space Grotesk';
-    src: url('../fonts/space-grotesk-latin.woff2') format('woff2');
-    font-weight: 300 700;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'Space Grotesk';
-    src: url('../fonts/space-grotesk-latin-ext.woff2') format('woff2');
-    font-weight: 300 700;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-    font-family: 'DM Sans';
-    src: url('../fonts/dm-sans-latin.woff2') format('woff2');
-    font-weight: 100 1000;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'DM Sans';
-    src: url('../fonts/dm-sans-latin-ext.woff2') format('woff2');
-    font-weight: 100 1000;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
+  /* Design matched to Husam's canonical CV PDF (blue/Word-style) */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  :root { --blue: #2e75b6; --ink: #1f1f1f; --body: #333; --muted: #6a6a6a; --rule: #d9d9d9; }
   body {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 11px;
-    line-height: 1.5;
-    color: #1a1a2e;
-    background: #ffffff;
-    padding: 0;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px; line-height: 1.45; color: var(--body); background: #fff;
   }
+  .page { max-width: 8.5in; margin: 0 auto; }
 
-  .page {
-    width: 100%;
-    max-width: 8.5in;
-    margin: 0 auto;
-    padding: 2px 0;
-  }
+  /* Header */
+  .header h1 { font-size: 26px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; margin-bottom: 4px; }
+  .tagline { color: var(--blue); font-size: 11px; margin-bottom: 3px; }
+  .tagline .sep { color: var(--blue); padding: 0 5px; }
+  .contact { color: #555; font-size: 10.5px; margin-bottom: 6px; }
+  .contact .sep { color: #999; padding: 0 5px; }
+  .header-rule { border-bottom: 2.5px solid var(--rule); position: relative; margin-bottom: 14px; }
+  .header-rule::before { content: ''; position: absolute; left: 0; bottom: -2.5px; width: 64px; border-bottom: 2.5px solid var(--blue); }
 
-  /* === HEADER === */
-  .header {
-    margin-bottom: 20px;
-  }
-
-  .header h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: #1a1a2e;
-    letter-spacing: -0.02em;
-    margin-bottom: 6px;
-    line-height: 1.1;
-  }
-
-  .header-gradient {
-    height: 2px;
-    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
-    border-radius: 1px;
-    margin-bottom: 10px;
-  }
-
-  .contact-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 14px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 10.5px;
-    line-height: 1.4;
-    color: #555;
-  }
-
-  .contact-row a {
-    color: #555;
-    text-decoration: none;
-  }
-
-  .contact-row .separator {
-    color: #ccc;
-  }
-
-  /* === SECTIONS === */
-  .section {
-    margin-bottom: 18px;
-  }
-
+  /* Sections */
+  .section { margin-bottom: 13px; }
   .section-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: hsl(187, 74%, 32%);
-    border-bottom: 1.5px solid #e2e2e2;
-    padding-bottom: 4px;
-    margin-bottom: 10px;
-    line-height: 1.2;
+    color: var(--blue); font-size: 10.5px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    border-bottom: 1px solid var(--rule); padding-bottom: 3px; margin-bottom: 8px;
   }
+  .summary { color: var(--body); line-height: 1.55; }
 
-  /* === PROFESSIONAL SUMMARY === */
-  .summary-text {
-    font-size: 11px;
-    line-height: 1.7;
-    color: #2f2f2f;
-  }
+  /* Core skills: labeled category lines */
+  .skill-line { margin-bottom: 4px; line-height: 1.5; }
+  .skill-line b { color: var(--ink); font-weight: 700; }
+  .skill-line .dot { color: var(--muted); padding: 0 4px; }
 
-  /* Links must never break across lines */
-  a {
-    white-space: nowrap;
-  }
+  /* Experience */
+  .job { margin-bottom: 11px; break-inside: avoid; page-break-inside: avoid; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .job-title { font-size: 11.5px; font-weight: 700; color: var(--ink); }
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+  .job-company { color: var(--blue); font-size: 10.5px; margin-bottom: 3px; }
+  .job-company .loc { color: #888; }
+  .job-company .note { color: #888; font-style: italic; }
+  .job ul { padding-left: 16px; margin-top: 2px; }
+  .job li { margin-bottom: 2.5px; line-height: 1.5; }
 
-  /* === CORE COMPETENCIES === */
-  .competencies-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
+  /* Education + Languages two-column block */
+  .bottom-grid { display: flex; gap: 36px; }
+  .bottom-grid .col-left { flex: 1.7; }
+  .bottom-grid .col-right { flex: 1; }
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .edu-title { font-weight: 700; color: var(--ink); font-size: 11px; }
+  .edu-org { color: var(--blue); font-size: 10.5px; margin-bottom: 2px; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-item ul { padding-left: 16px; margin-top: 2px; }
+  .edu-item li { margin-bottom: 2px; line-height: 1.45; }
+  .lang-line { margin-bottom: 3px; }
+  .lang-line b { color: var(--ink); }
+  .lang-line .dot { color: var(--muted); padding: 0 4px; }
 
-  .competency-tag {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    color: hsl(187, 74%, 28%);
-    background: hsl(187, 40%, 95%);
-    padding: 4px 10px;
-    border-radius: 3px;
-    border: 1px solid hsl(187, 40%, 88%);
-  }
-
-  /* === WORK EXPERIENCE === */
-  .job {
-    margin-bottom: 14px;
-  }
-
-  .job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 12px;
-    margin-bottom: 4px;
-  }
-
-  .job-company {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 12.5px;
-    font-weight: 600;
-    color: hsl(270, 70%, 45%);
-  }
-
-  .job-period {
-    font-size: 10.5px;
-    color: #777;
-    white-space: nowrap;
-  }
-
-  .job-role {
-    font-size: 11px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 6px;
-  }
-
-  .job-location {
-    font-size: 10px;
-    color: #888;
-  }
-
-  .job ul {
-    padding-left: 18px;
-    margin-top: 6px;
-  }
-
-  .job li {
-    font-size: 10.5px;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 4px;
-  }
-
-  .job li strong {
-    font-weight: 600;
-  }
-
-  /* === PROJECTS === */
-  .project {
-    margin-bottom: 12px;
-  }
-
-  .project-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 11.5px;
-    font-weight: 600;
-    color: hsl(270, 70%, 45%);
-  }
-
-  .project-badge {
-    font-size: 9px;
-    font-weight: 500;
-    color: hsl(187, 74%, 32%);
-    background: hsl(187, 40%, 95%);
-    padding: 1px 6px;
-    border-radius: 2px;
-    margin-left: 6px;
-  }
-
-  .project-desc {
-    font-size: 10.5px;
-    color: #444;
-    margin-top: 3px;
-    line-height: 1.55;
-  }
-
-  .project-tech {
-    font-size: 9.5px;
-    color: #888;
-    margin-top: 3px;
-  }
-
-  /* === EDUCATION === */
-  .edu-item {
-    margin-bottom: 8px;
-  }
-
-  .edu-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 12px;
-  }
-
-  .edu-title {
-    font-weight: 600;
-    font-size: 11px;
-    color: #333;
-  }
-
-  .edu-org {
-    color: hsl(270, 70%, 45%);
-    font-weight: 500;
-  }
-
-  .edu-year {
-    font-size: 10px;
-    color: #777;
-    white-space: nowrap;
-  }
-
-  .edu-desc {
-    font-size: 10px;
-    color: #666;
-    margin-top: 2px;
-    line-height: 1.5;
-  }
-
-  /* === CERTIFICATIONS === */
-  .cert-item {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(90px, max-content) 44px;
-    align-items: baseline;
-    gap: 12px;
-    margin-bottom: 6px;
-  }
-
-  .cert-title {
-    font-size: 10.5px;
-    font-weight: 500;
-    color: #333;
-    min-width: 0;
-  }
-
-  .cert-org {
-    color: hsl(270, 70%, 45%);
-    white-space: nowrap;
-  }
-
-  .cert-year {
-    font-size: 10px;
-    color: #777;
-    white-space: nowrap;
-    text-align: right;
-  }
-
-  /* === SKILLS === */
-  .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 14px;
-  }
-
-  .skill-item {
-    font-size: 10.5px;
-    color: #444;
-  }
-
-  .skill-category {
-    font-weight: 600;
-    color: #333;
-    font-size: 10.5px;
-  }
-
-  /* === PRINT === */
-  @media print {
-    body {
-      -webkit-print-color-adjust: exact;
-      print-color-adjust: exact;
-    }
-
-    .page {
-      padding: 0;
-    }
-  }
-
-  /* === PAGE BREAK CONTROL === */
-  .avoid-break,
-  .job,
-  .project,
-  .edu-item,
-  .cert-item {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  .header { margin-bottom: 14px; }
-  .section { margin-bottom: 14px; }
-  .job { margin-bottom: 11px; }
-  .job li { line-height: 1.5; margin-bottom: 3px; }
+  @media print { .page { padding: 0; } }
 </style>
 </head>
 <body>
 <div class="page">
 
-  <!-- HEADER -->
-  <div class="header avoid-break">
+  <div class="header">
     <h1>Husam Ahmed</h1>
-    <div class="header-gradient"></div>
-    <div class="contact-row">
-      <span>(647) 685-6908</span>
-      <span class="separator">|</span>
-      <span>husamdaifalla01@gmail.com</span>
-      
-      
-      <span class="separator">|</span>
-      <span>Ottawa, ON | Active Reliability Status</span>
-    </div>
+    <div class="tagline">Data Quality & Operations<span class="sep">&bull;</span>Federal Government Experience<span class="sep">&bull;</span>Active Reliability Status</div>
+    <div class="contact">Ottawa, ON<span class="sep">&middot;</span>husamdaifalla01@gmail.com<span class="sep">&middot;</span>(647) 685-6908</div>
+    <div class="header-rule"></div>
   </div>
 
-  <!-- PROFESSIONAL SUMMARY -->
-  <div class="section avoid-break">
+  <div class="section">
     <div class="section-title">Professional Summary</div>
-    <div class="summary-text">Data-quality analyst in practice: I maintain master-record integrity on one of the federal government's largest case-management systems (GCMS at IRCC), investigating probabilistic matches, correcting records, and surfacing anomalies across national datasets. Concurrently, I combine and standardize multi-source public data and build the Power BI dashboards a research team prioritizes by. Excel pivot analysis daily. Active Reliability Status. Currently completing the Google Data Analytics Professional Certificate (Coursera).</div>
+    <div class="summary">Data-quality analyst in practice: I maintain master-record integrity on one of the federal government's largest case-management systems (GCMS at IRCC), investigating probabilistic matches, correcting records, and surfacing anomalies across national datasets. Concurrently, I combine and standardize multi-source public data and build the Power BI dashboards a research team prioritizes by. Excel pivot analysis daily. Active Reliability Status. Currently completing the Google Data Analytics Professional Certificate (Coursera).</div>
   </div>
 
-  <!-- CORE COMPETENCIES -->
   <div class="section">
-    <div class="section-title">Core Competencies</div>
-    <div class="competencies-grid">
-      <span class="competency-tag">Data Quality and Integrity</span>
-<span class="competency-tag">Master Data and Entity Resolution</span>
-<span class="competency-tag">Anomaly Detection</span>
-<span class="competency-tag">Data Standardization and Cleansing</span>
-<span class="competency-tag">Power BI Dashboards</span>
-<span class="competency-tag">Excel (Pivot Tables, Lookups)</span>
-<span class="competency-tag">Process Documentation</span>
-<span class="competency-tag">Operational Reporting</span>
-    </div>
+    <div class="section-title">Core Skills</div>
+    <div class="skill-line"><b>Operations</b><span class="dot">&middot;</span>Data Integrity, Data Analysis, Entity Resolution, Quality Assurance, Records Management, Process Improvement, Case Triage</div>
+<div class="skill-line"><b>Tools</b><span class="dot">&middot;</span>Microsoft Excel (pivot tables, lookups, formulas), Power BI, GCMS, SharePoint, Microsoft Teams</div>
+<div class="skill-line"><b>Documentation</b><span class="dot">&middot;</span>SOP Development, Technical Writing, Change Logs, Version Control, Briefing Notes</div>
+<div class="skill-line"><b>Compliance & Policy</b><span class="dot">&middot;</span>Privacy Compliance, Information-Sharing Controls, Regulatory Analysis</div>
   </div>
 
-  <!-- WORK EXPERIENCE -->
   <div class="section">
-    <div class="section-title">Work Experience</div>
+    <div class="section-title">Professional Experience</div>
     
   <div class="job">
     <div class="job-header">
-      <div class="job-company">Immigration, Refugees and Citizenship Canada, Operations Support Centre</div>
+      <div class="job-title">Program Assistant / Acting Case Processing Agent (CR-04, acting PM-01)</div>
       <div class="job-period">Aug 2024 to Present</div>
     </div>
-    <div class="job-role">Program Assistant / Acting Case Processing Agent (CR-04, acting PM-01) <span class="job-location">/ Ottawa, ON</span> <span class="job-location">(Held concurrently with the Stelis role below.)</span></div>
+    <div class="job-company">Immigration, Refugees and Citizenship Canada, Operations Support Centre <span class="loc">/ Ottawa, ON</span> <span class="note">(Held concurrently with the Stelis role below.)</span></div>
     <ul><li>Maintain master-record integrity on national client data in IRCC's Global Case Management System (GCMS): investigate probabilistic identity matches across biographic, biometric, and travel-document evidence, then commit corrections (record merges, disassociations, profile relinking) with each decision documented.</li>
 <li>Run pivot analyses in Excel and reporting queries in GCMS across large case datasets to confirm application statuses, surface anomalies, and flag potential information-sharing breaches for controlled handling.</li>
 <li>Triage the central Data Integrity unit's national intake of status checks and household identity-correction requests routed from offices across the federal department, supporting both PPMI and IMM applicants, prioritizing against case urgency and team capacity.</li>
@@ -415,10 +107,10 @@
 
   <div class="job">
     <div class="job-header">
-      <div class="job-company">Stelis Environmental Solutions</div>
+      <div class="job-title">Water Quality Researcher, Quality Systems (Regulatory & Data Analysis)</div>
       <div class="job-period">Nov 2023 to Present</div>
     </div>
-    <div class="job-role">Water Quality Researcher, Quality Systems <span class="job-location">/ Ottawa, ON</span> <span class="job-location">(Concurrent with the IRCC role above.)</span></div>
+    <div class="job-company">Stelis Environmental Solutions <span class="loc">/ Ottawa, ON</span> <span class="note">(Concurrent with the IRCC role above.)</span></div>
     <ul><li>Combine and clean public drinking-water and wastewater monitoring data from Health Canada, the US EPA, and provincial reports, standardizing inconsistent reporting formats, then build cross-jurisdictional Power BI dashboards, including exceedance heat maps, that drive the team's market prioritization.</li>
 <li>Compare real-time ColiMinder readings against culture-based lab results in Excel pivot tables, calculating percent agreement and false-positive rates across pilot sites to quantify how closely the real-time method tracks the lab benchmark.</li>
 <li>Author and maintain the team's consolidated SOP and compliance checklist on federal and provincial drinking-water rules (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03), used as the primary reference for assessing real-time outputs against lab-based requirements.</li>
@@ -428,10 +120,10 @@
 
   <div class="job">
     <div class="job-header">
-      <div class="job-company">Rogers Communications</div>
+      <div class="job-title">Manager on Duty / Sales Advisor</div>
       <div class="job-period">May 2021 to Aug 2024</div>
     </div>
-    <div class="job-role">Manager on Duty / Sales Advisor <span class="job-location">/ Ottawa, ON</span></div>
+    <div class="job-company">Rogers Communications <span class="loc">/ Ottawa, ON</span></div>
     <ul><li>Drove client retention above 90% and high CSAT by analyzing CRM customer history in Excel and building structured follow-up workflows that produced an auditable record of each customer interaction.</li>
 <li>Acted as on-floor compliance authority for credit, KYC, and privacy decisions, reviewing customer documentation and credit-check results and approving transactions only when every regulatory and internal-policy step was met.</li>
 <li>Onboarded and trained new hires on KYC procedures, privacy requirements, and documentation standards, maintaining consistent compliance across shifts; led a team of three over three years.</li>
@@ -440,10 +132,10 @@
 
   <div class="job">
     <div class="job-header">
-      <div class="job-company">Elemental Data Collection</div>
+      <div class="job-title">Market Research Interviewer</div>
       <div class="job-period">Jan 2021 to May 2021</div>
     </div>
-    <div class="job-role">Market Research Interviewer <span class="job-location">/ Ottawa, ON</span></div>
+    <div class="job-company">Elemental Data Collection <span class="loc">/ Ottawa, ON</span></div>
     <ul><li>Conducted structured interviews against research protocols and polling scripts, capturing responses accurately to support clean downstream datasets and consistent reporting across projects.</li>
 <li>Improved sample quality by converting 30 to 40% of initial refusals, raising response rates and strengthening the representativeness of project data.</li>
 <li>Applied standardized procedures for respondent selection, structured data entry, and script adherence to maintain consistency and comparability across research projects.</li>
@@ -451,24 +143,34 @@
   </div>
   </div>
 
-    <!-- EDUCATION -->
-  <div class="section avoid-break">
-    <div class="section-title">Education</div>
-    <div class="edu-item"><div class="edu-header"><div class="edu-title">Bachelor of Science, Biology <span class="edu-org">/ University of Ottawa</span></div><div class="edu-year">Sep 2020 to Dec 2024</div></div><div class="edu-desc">Structured data collection and documentation in microbiology coursework (sample handling, protocol adherence, results logging). Quantitative and statistical analysis of laboratory datasets in Excel; technical lab reports summarizing methods, results, and limitations.</div></div>
+  <div class="bottom-grid">
+    <div class="col-left">
+      <div class="section">
+        <div class="section-title">Education</div>
+        
+  <div class="edu-item">
+    <div class="edu-header"><div class="edu-title">Bachelor of Science, Biology</div><div class="edu-year">Sep 2020 to Dec 2024</div></div>
+    <div class="edu-org">University of Ottawa / Ottawa, ON</div>
+    <ul>
+      <li>Structured data collection and documentation in microbiology coursework (sample handling, protocol adherence, results logging).</li>
+      <li>Quantitative and statistical analysis of laboratory datasets in Excel; technical lab reports summarizing methods, results, and limitations.</li>
+    </ul>
   </div>
-
-  <!-- CERTIFICATIONS -->
-  <div class="section avoid-break">
-    <div class="section-title">Certifications</div>
-    <div class="cert-item"><div class="cert-title">Google Data Analytics Professional Certificate <span class="cert-org">/ Coursera</span></div><div class="cert-year">In progress</div></div>
+  <div class="edu-item">
+    <div class="edu-header"><div class="edu-title">Google Data Analytics Professional Certificate</div><div class="edu-year">In progress</div></div>
+    <div class="edu-org">Coursera</div>
   </div>
-
-  <!-- SKILLS -->
-  <div class="section avoid-break">
-    <div class="section-title">Skills</div>
-    <div class="skills-grid"><span class="skill-item"><span class="skill-category">Languages:</span> English (native), Arabic (native), French (working knowledge)</span>
-<span class="skill-item"><span class="skill-category">Tools:</span> GCMS, Excel (pivot tables, lookups, formulas), Power BI, SharePoint, Microsoft Teams</span>
-<span class="skill-item"><span class="skill-category">Status:</span> Active Reliability Status (Government of Canada); no sponsorship required</span></div>
+      </div>
+    </div>
+    <div class="col-right">
+      <div class="section">
+        <div class="section-title">Languages</div>
+        
+  <div class="lang-line"><b>English</b><span class="dot">&middot;</span>Native</div>
+  <div class="lang-line"><b>Arabic</b><span class="dot">&middot;</span>Native</div>
+  <div class="lang-line"><b>French</b><span class="dot">&middot;</span>Working knowledge</div>
+      </div>
+    </div>
   </div>
 
 </div>

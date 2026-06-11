@@ -50,7 +50,7 @@ const irccJob = (bullets) => job(
 );
 const stelisJob = (bullets) => job(
   'Stelis Environmental Solutions',
-  'Water Quality Researcher, Quality Systems',
+  'Water Quality Researcher, Quality Systems (Regulatory & Data Analysis)',
   'Nov 2023 to Present', 'Ottawa, ON', bullets,
   'Concurrent with the IRCC role above.'
 );
