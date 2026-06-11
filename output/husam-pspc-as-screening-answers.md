@@ -13,10 +13,10 @@ that is the whole point. Three are marked DO NOT CLAIM: answer No. Two are JUDGM
 | Education — secondary diploma+ | **YES** | BSc exceeds it |
 | AS01 client service | **YES** | strong |
 | AS02 coordinate/review/draft documents | **YES** | strong |
-| AS02 electronic document mgmt system (GCDocs/others) | **YES** | via SharePoint + GCMS |
+| AS02 electronic document mgmt system (GCDocs/others) | **YES** | GCDocs + GCMS + SharePoint |
 | AS03 analyze operational issues + recommend to mgmt | **YES** | strong |
 | AS03 extract data from systems, compare, report discrepancies | **YES** | strongest |
-| AS03 electronic document mgmt system | **YES** | via SharePoint + GCMS |
+| AS03 electronic document mgmt system | **YES** | GCDocs + GCMS + SharePoint |
 | AS03 admin support to senior mgmt (Director+) | **JUDGMENT** | only via Stelis COO — see note |
 | AS03 coordinate/review/draft documents | **YES** | strong |
 | AS03 manage project deliverables | **YES** | Stelis pilot deliverables |
@@ -53,8 +53,7 @@ that is the whole point. Three are marked DO NOT CLAIM: answer No. Two are JUDGM
 **YES.** As Water Quality Researcher at Stelis Environmental Solutions (Nov 2023 to Jul 2025), I authored and maintained the team's consolidated Standard Operating Procedure (SOP) and compliance checklist — the unit's primary reference document — and a regulatory change log spanning federal and provincial drinking-water rules, coordinating updates as regulations changed and reviewing them with project leads. I also drafted briefing notes and comparison tables for senior management. These documents ranged from detailed technical procedures to executive summaries, requiring me to coordinate inputs, review for accuracy and consistency, and control versions over time.
 
 ## AS02 — Electronic filing and document management system (GCDocs and others)
-**YES.** At Stelis I used SharePoint as the electronic document management system to store, version-control, and share the team's SOPs, compliance checklists, and regulatory change log. At IRCC I work in GCMS as the official system of record for client case files and documentation, with each action logged for retrieval and audit. I use these systems daily to file, search, version-control, and maintain controlled records.
-> **[Confirm GCDocs]** If you have actually used GCDocs at IRCC, name it explicitly here — it's the exact system they cite. If not, the SharePoint + GCMS answer above is fully truthful ("such as GCDocs **and others**").
+**YES.** At IRCC, I use GCDocs daily to file, retrieve, and version-control case documentation and records, and I work in GCMS as the official system of record for client case files, with each action logged for retrieval and audit. Earlier, at Stelis, I used SharePoint to store, version-control, and share the team's SOPs, compliance checklists, and regulatory change log. My experience therefore spans GCDocs, GCMS, and SharePoint, covering filing, search, version control, and maintaining the integrity of controlled records across federal and private-sector systems.
 
 ---
 
@@ -65,7 +64,7 @@ that is the whole point. Three are marked DO NOT CLAIM: answer No. Two are JUDGM
 **YES.** At IRCC (Aug 2024 to present), I extract data from GCMS reporting tools into Microsoft Excel, where I run pivot analyses across large case datasets to compare records, confirm application statuses, and report discrepancies and anomalies — including duplicate Unique Client Identifiers (UCIs), unlinked profiles, and potential information-sharing breaches — for controlled handling. At Stelis I extracted and combined monitoring data from Health Canada, US EPA, and provincial systems, standardized inconsistent formats, and compared results to flag regulatory exceedances. This spans both a federal case-management system and public regulatory datasets.
 
 ## AS03 — Electronic filing and document management system (GCDocs and others)
-**YES.** I use electronic document and records management systems daily. In GCMS at IRCC, client records and every case action are filed and retrieved as the official system of record. At Stelis, I maintained version-controlled SOPs, checklists, and a regulatory change log in SharePoint. I am comfortable filing, searching, version-controlling, and maintaining the integrity of records in these systems. *(Add GCDocs if applicable.)*
+**YES.** I use electronic document and records management systems daily. At IRCC I file and version-control case documentation in GCDocs, and client records and every case action are filed and retrieved in GCMS as the official system of record. At Stelis, I maintained version-controlled SOPs, checklists, and a regulatory change log in SharePoint. I am experienced filing, searching, version-controlling, and maintaining the integrity of records across GCDocs, GCMS, and SharePoint.
 
 ## AS03 — Services and administrative support to senior management (Director level and above)
 **JUDGMENT CALL — answer Yes ONLY with this framing, otherwise No.**
@@ -141,6 +140,5 @@ Defensible Yes: *At Stelis I contributed to the development and delivery of the 
 
 ## What's still missing (the part that decides screen-IN)
 These assets only **rank** you once you're in the pool. The **essential** qualifications — the education standard and the **essential experience** statements — are what get you screened in or rejected. Paste those questions and I'll draft them the same way. Also confirm before you submit:
-1. **[GCDocs]** — name it only if you've actually used it.
-2. **AS03 Director-level support** and **AS06 development & delivery of projects** — the two judgment calls above; decide if you'll defend them.
+1. **AS03 Director-level support** and **AS06 development & delivery of projects** — the two judgment calls above; decide if you'll defend them. Also **AS06 materiel life cycle** — confirm whether you handled disposal/write-offs before claiming the full cycle.
 3. **Self-declaration** — if you identify as a member of a visible minority, self-declare in the Employment Equity section; this process explicitly gives consideration to those groups, and it's a legitimate, real advantage.

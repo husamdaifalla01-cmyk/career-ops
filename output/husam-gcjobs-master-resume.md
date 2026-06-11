@@ -39,6 +39,7 @@ Full-time (37.5 hrs/week), indeterminate
 - Triage the unit's national intake of status checks and household identity-correction requests for PPMI (passport) and IMM applicants, prioritizing by urgency and capacity.
 - Extract data from GCMS reporting tools into Excel and run pivot analyses to compare records, confirm statuses, and report discrepancies and anomalies; recommend corrective handling to the unit.
 - Confirm citizenship status from naturalization, issuance, and revocation records, citing documentation for downstream officers.
+- File, retrieve, and manage case documentation and records in GCDocs and GCMS, maintaining version control and audit-ready records.
 - Administer GCMS access for staff at 60+ Visa Application Centres and Missions abroad (provisioning, permissions, urgent technical issues), with each action logged.
 
 ------------------------------------------------------------
@@ -82,7 +83,7 @@ Ottawa, ON | Jan 2021 to May 2021 | Part-time [CONFIRM hrs/week]
 ============================================================
 TOOLS AND SKILLS
 ============================================================
-Systems: GCMS, SharePoint, Microsoft Teams
+Systems: GCMS, GCDocs, SharePoint, Microsoft Teams
 Data: Microsoft Excel (pivot tables, lookups, formulas), Power BI
 Documentation: SOPs, briefing notes, compliance checklists, regulatory change logs, technical writing
 Domains: identity verification, document and passport examination, fraud detection, case management,
