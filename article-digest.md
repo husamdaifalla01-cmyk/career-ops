@@ -11,8 +11,9 @@ Nothing below may be inflated; where a number is unverified it is marked TODO.
 - **National intake triage:** triages the central Data Integrity unit's national intake of
   status checks and household identity-correction requests (PPMI + IMM), prioritizing by case
   urgency against team capacity.
-- **Biometric operations support for 60+ Visa Application Centres and Missions abroad:**
-  account provisioning, permission changes, urgent technical issues, every action logged.
+- **Biometric operations support (BOSU) for 60+ Visa Application Centres and Missions abroad
+  and IRCC partners:** administers GCMS, CIBIDS, and myKEY access — account provisioning,
+  permission changes, urgent technical issues, every action logged.
 - **Document examination + fraud-tactics awareness (confirmed by Husam 2026-06-11):** digs deep
   into client documents, passports, and travel documents as part of identity analysis; has direct,
   deep awareness of the fraudulent tactics applicants use to try to trick the system. Citable in
