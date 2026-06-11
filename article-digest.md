@@ -13,6 +13,10 @@ Nothing below may be inflated; where a number is unverified it is marked TODO.
   urgency against team capacity.
 - **Biometric operations support for 60+ Visa Application Centres and Missions abroad:**
   account provisioning, permission changes, urgent technical issues, every action logged.
+- **Document examination + fraud-tactics awareness (confirmed by Husam 2026-06-11):** digs deep
+  into client documents, passports, and travel documents as part of identity analysis; has direct,
+  deep awareness of the fraudulent tactics applicants use to try to trick the system. Citable in
+  materials for fraud/identity/border roles.
 - **IRPA/Privacy Act applied daily:** controlled information-sharing decisions and breach
   handling coordinated with internal teams and overseas missions.
 - **Citizenship status verification:** naturalization records, certificate issuance,
