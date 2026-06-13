@@ -25,6 +25,15 @@ const STELIS = {
   workflow: `Mapped the end-to-end monitoring workflow to find where handoffs slowed things down, comparing lab turnaround times against the response windows needed to contain contamination.`,
 };
 
+// Mechanics-rich Stelis bullets for the general / agency resume (SME-credible).
+const STELIS_GENERAL = [
+  `Authored a regulatory gap analysis and accreditation-pathway assessment for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.`,
+  `Compared the rapid method against each jurisdiction's accredited culture-based compliance methods (Health Canada GCDWQ, Ontario O. Reg. 170/03, Quebec RQEP, and US EPA equivalents) to map where it could be adopted for operational or early-warning monitoring versus regulatory compliance testing, and what method-equivalency validation (e.g., ISO 17994) would require.`,
+  `Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably the enzymatic signal predicted regulated E. coli levels.`,
+  `Built Power BI heat maps across Canadian and US jurisdictions, combining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's water-treatment and monitoring requirements, to prioritize target markets for deployment.`,
+  `Interviewed water scientists, engineers, and regulators to ground the regulatory analysis and deployment recommendations in operational and compliance reality.`,
+];
+
 const ROGERS = {
   ops: `Ran the store floor as Manager on Duty, owning opening and closing procedures, cash and inventory controls, and daily targets, and serving as the escalation point for both staff and customers across the shift.`,
   kyc: `Acted as on-floor compliance authority for credit, KYC, and privacy decisions, reviewing customer documentation and credit-check results and approving transactions only when every regulatory and internal-policy step was met.`,
@@ -93,7 +102,7 @@ export const roles = [
     ],
     jobs: [
       irccJob([IRCC.identity, IRCC.fraud_tactics, IRCC.irpa, IRCC.triage, IRCC.pivot, IRCC.access]),
-      stelisJob([STELIS.data, STELIS.validation, STELIS.reg, STELIS.brief, STELIS.changelog]),
+      stelisJob(STELIS_GENERAL),
       rogersJob([ROGERS.cash, ROGERS.materiel, ROGERS.kyc, ROGERS.train, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.records]),
     ],

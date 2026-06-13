@@ -33,12 +33,13 @@ Federal operations and compliance professional at IRCC's Operations Support Cent
 **Stelis Environmental Solutions** / Ottawa, ON — Nov 2023 to Jul 2025
 *(Held concurrently with the IRCC role above, Aug 2024 to Jul 2025. Independent contractor, ~8 hrs/week; equity-compensated.)*
 
-- Combine and clean public drinking-water and wastewater monitoring data from Health Canada, the US EPA, and provincial reports, standardizing different reporting formats so they can be compared side by side, then build cross-jurisdictional Power BI dashboards, including exceedance heat maps, that drive the team's market prioritization.
-- Compare real-time ColiMinder readings against culture-based lab results in Excel pivot tables, calculating percent agreement and false-positive rates across pilot sites to quantify how closely the real-time method tracks the lab benchmark.
-- Review federal and provincial drinking-water regulations (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03, and US state equivalents) to identify the testing requirements real-time monitoring must satisfy, then evaluate pilot results against those standards.
-- Document lab-testing turnaround times against the response windows required to contain microbial contamination, drawing on subject-matter expert input to build the public-health case for real-time monitoring.
-- Write the briefing notes and reports that go to senior management, laying out the speed, verification, documentation, and regulatory acceptance tradeoffs between real-time and lab-based monitoring.
-- Track regulatory changes to drinking-water rules in a running change log, update the team's SOP and compliance checklist as rules evolve, and map the end-to-end monitoring workflow to flag where handoffs slow things down.
+- Authored a regulatory gap analysis and accreditation-pathway assessment for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.
+- Compared the rapid method against each jurisdiction's accredited culture-based compliance methods (Health Canada GCDWQ, Ontario O. Reg. 170/03, Quebec RQEP, and US EPA equivalents) to map where it could be adopted for operational or early-warning monitoring versus regulatory compliance testing, and what method-equivalency validation (e.g., ISO 17994) would require.
+- Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably the enzymatic signal predicted regulated E. coli levels.
+- Built Power BI heat maps across Canadian and US jurisdictions, combining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's water-treatment and monitoring requirements, to prioritize target markets for deployment.
+- Researched site-level and seasonal water-quality trends across Canadian and US jurisdictions from public monitoring data to recommend where and when real-time monitoring would add the most value.
+- Interviewed water scientists, engineers, and regulators to ground the regulatory analysis and deployment recommendations in operational and compliance reality.
+- Authored and maintained the team's SOP, compliance checklist, and regulatory change log on federal and provincial drinking-water rules, and wrote the briefing notes summarizing the findings for company leadership.
 
 ### Manager on Duty / Sales Advisor
 **Rogers Communications** / Ottawa, ON — May 2021 to Aug 2024
