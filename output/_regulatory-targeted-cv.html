@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Husam Ahmed - CV</title>
+<style>
+  /* Design matched to Husam's canonical CV PDF (blue/Word-style) */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  :root { --blue: #2e75b6; --ink: #1f1f1f; --body: #333; --muted: #6a6a6a; --rule: #d9d9d9; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px; line-height: 1.45; color: var(--body); background: #fff;
+  }
+  .page { max-width: 8.5in; margin: 0 auto; }
+
+  /* Header */
+  .header h1 { font-size: 26px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; margin-bottom: 4px; }
+  .tagline { color: var(--blue); font-size: 11px; margin-bottom: 3px; }
+  .tagline .sep { color: var(--blue); padding: 0 5px; }
+  .contact { color: #555; font-size: 10.5px; margin-bottom: 6px; }
+  .contact .sep { color: #999; padding: 0 5px; }
+  .header-rule { border-bottom: 2.5px solid var(--rule); position: relative; margin-bottom: 14px; }
+  .header-rule::before { content: ''; position: absolute; left: 0; bottom: -2.5px; width: 64px; border-bottom: 2.5px solid var(--blue); }
+
+  /* Sections */
+  .section { margin-bottom: 13px; }
+  .section-title {
+    color: var(--blue); font-size: 10.5px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    border-bottom: 1px solid var(--rule); padding-bottom: 3px; margin-bottom: 8px;
+  }
+  .summary { color: var(--body); line-height: 1.55; }
+
+  /* Core skills: labeled category lines */
+  .skill-line { margin-bottom: 4px; line-height: 1.5; }
+  .skill-line b { color: var(--ink); font-weight: 700; }
+  .skill-line .dot { color: var(--muted); padding: 0 4px; }
+
+  /* Experience */
+  /* Jobs may split across pages so page 1 fills to the margin; bullets never split,
+     and a job header can never strand alone at the bottom of a page. */
+  .job { margin-bottom: 11px; }
+  .job li { break-inside: avoid; page-break-inside: avoid; }
+  .job-header, .job-company { break-after: avoid; page-break-after: avoid; }
+  .section-title { break-after: avoid; page-break-after: avoid; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .job-title { font-size: 11.5px; font-weight: 700; color: var(--ink); }
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+  .job-company { color: var(--blue); font-size: 10.5px; margin-bottom: 3px; }
+  .job-company .loc { color: #888; }
+  .job-company .note { color: #888; font-style: italic; }
+  .job ul { padding-left: 16px; margin-top: 2px; }
+  .job li { margin-bottom: 2.5px; line-height: 1.5; }
+
+  /* Education + Languages two-column block */
+  .bottom-grid { display: flex; gap: 36px; }
+  .bottom-grid .col-left { flex: 1.7; }
+  .bottom-grid .col-right { flex: 1; }
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .edu-title { font-weight: 700; color: var(--ink); font-size: 11px; }
+  .edu-org { color: var(--blue); font-size: 10.5px; margin-bottom: 2px; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-item ul { padding-left: 16px; margin-top: 2px; }
+  .edu-item li { margin-bottom: 2px; line-height: 1.45; }
+  .lang-line { margin-bottom: 3px; }
+  .lang-line b { color: var(--ink); }
+  .lang-line .dot { color: var(--muted); padding: 0 4px; }
+
+  @media print { .page { padding: 0; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Husam Ahmed</h1>
+    <div class="tagline">Regulatory & Compliance<span class="sep">&bull;</span>Regulatory Research & Accreditation Pathways<span class="sep">&bull;</span>Federal Compliance Experience</div>
+    <div class="contact">Ottawa, ON<span class="sep">&middot;</span>husamdaifalla01@gmail.com<span class="sep">&middot;</span>(647) 685-6908<span class="sep">&middot;</span>linkedin.com/in/husamahmedca</div>
+    <div class="header-rule"></div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">Regulatory and compliance professional with hands-on regulatory affairs experience. Authored a regulatory gap analysis and accreditation-pathway assessment to bring a real-time microbial water-monitoring technology to the Canadian and US markets, mapping the method against accredited compliance standards across jurisdictions (Health Canada GCDWQ, US EPA) and the ISO 17994 equivalency requirements. Currently apply federal legislation (IRPA, the Privacy Act) and compliance controls daily at IRCC's Operations Support Centre. BSc Biology; active Reliability clearance; strong in regulatory research, method validation, and Power BI reporting.</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Core Skills</div>
+    <div class="skill-line"><b>Regulatory</b><span class="dot">&middot;</span>Regulatory Research, Regulatory Gap Analysis, Accreditation Pathways (ISO 17994), Method Equivalency & Validation, Jurisdictional Regulatory Mapping, Regulatory Change Management</div>
+<div class="skill-line"><b>Compliance & Policy</b><span class="dot">&middot;</span>Legislation Application (IRPA, Privacy Act), Regulatory Compliance, SOPs & Compliance Checklists, Information-Sharing Controls, Quality Assurance, Audit Readiness</div>
+<div class="skill-line"><b>Documentation & Data</b><span class="dot">&middot;</span>Briefing Notes & Regulatory Writing, GCDocs, SharePoint, Microsoft Excel, Power BI</div>
+<div class="skill-line"><b>Science</b><span class="dot">&middot;</span>BSc Biology, Microbiology, Method Comparison (percent agreement, sensitivity/specificity)</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+    
+  <div class="job">
+    <div class="job-header">
+      <div class="job-title">Program Assistant / Acting Case Processing Agent (CR-04, acting PM-01)</div>
+      <div class="job-period">Aug 2024 to Present</div>
+    </div>
+    <div class="job-company">Immigration, Refugees and Citizenship Canada, Operations Support Centre <span class="loc">/ Ottawa, ON</span> <span class="note">(Held concurrently with the Stelis role below from Aug 2024 to Jul 2025.)</span></div>
+    <ul><li>Apply the Immigration and Refugee Protection Act (IRPA), the Privacy Act, and controlled information-sharing protocols to daily case decisions, determining what information can be shared, with whom, and under what authority, and handling flagged breaches.</li>
+<li>Maintain data integrity and quality assurance on national client records in GCMS: investigate and correct discrepancies, and document each action for audit.</li>
+<li>Run analyses in Microsoft Excel and GCMS reporting tools across large datasets to confirm statuses, surface anomalies, and report discrepancies.</li>
+<li>File and manage case documentation and records in GCDocs and GCMS, maintaining version control and audit-ready records.</li></ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="job-title">Water Quality Researcher</div>
+      <div class="job-period">Nov 2023 to Jul 2025</div>
+    </div>
+    <div class="job-company">Stelis Environmental Solutions <span class="loc">/ Ottawa, ON</span> <span class="note">(Held concurrently with the IRCC role above (Aug 2024 to Jul 2025).)</span></div>
+    <ul><li>Authored a regulatory gap analysis and accreditation-pathway assessment for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.</li>
+<li>Compared the rapid method against each jurisdiction's accredited culture-based compliance methods (Health Canada GCDWQ, Ontario O. Reg. 170/03, Quebec RQEP, and US EPA equivalents) to map where it could be adopted for operational or early-warning monitoring versus regulatory compliance testing, and what method-equivalency validation (e.g., ISO 17994) would require.</li>
+<li>Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably the enzymatic signal predicted regulated E. coli levels.</li>
+<li>Built Power BI heat maps across Canadian and US jurisdictions, combining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's water-treatment and monitoring requirements, to prioritize target markets for deployment.</li>
+<li>Interviewed water scientists, engineers, and regulators to ground the regulatory analysis and deployment recommendations in operational and compliance reality.</li></ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="job-title">Manager on Duty / Sales Advisor</div>
+      <div class="job-period">May 2021 to Aug 2024</div>
+    </div>
+    <div class="job-company">Rogers Communications <span class="loc">/ Ottawa, ON</span></div>
+    <ul><li>Acted as on-floor compliance authority for credit, KYC, and privacy decisions, reviewing customer documentation and credit-check results and approving transactions only when every regulatory and internal-policy step was met.</li>
+<li>Onboarded and trained new hires on KYC procedures, privacy requirements, and documentation standards, maintaining consistent compliance across shifts; led a team of three over three years.</li></ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="job-title">Market Research Interviewer</div>
+      <div class="job-period">Jan 2021 to May 2021</div>
+    </div>
+    <div class="job-company">Elemental Data Collection <span class="loc">/ Ottawa, ON</span></div>
+    <ul><li>Conducted structured interviews against research protocols and polling scripts, capturing responses accurately to support clean downstream datasets and consistent reporting across projects.</li>
+<li>Maintained accurate records of response outcomes, call attempts, and interview dispositions to support supervisor and analyst review and reliable downstream reporting.</li></ul>
+  </div>
+  </div>
+
+  <div class="bottom-grid">
+    <div class="col-left">
+      <div class="section">
+        <div class="section-title">Education</div>
+        
+  <div class="edu-item">
+    <div class="edu-header"><div class="edu-title">Bachelor of Science, Biology</div><div class="edu-year">Sep 2020 to Dec 2024</div></div>
+    <div class="edu-org">University of Ottawa / Ottawa, ON</div>
+    <ul>
+      <li>Structured data collection and documentation in microbiology coursework (sample handling, protocol adherence, results logging).</li>
+      <li>Quantitative and statistical analysis of laboratory datasets in Excel; technical lab reports summarizing methods, results, and limitations.</li>
+    </ul>
+  </div>
+  <div class="edu-item">
+    <div class="edu-header"><div class="edu-title">Google Data Analytics Professional Certificate</div><div class="edu-year">In progress</div></div>
+    <div class="edu-org">Coursera</div>
+  </div>
+      </div>
+    </div>
+    <div class="col-right">
+      <div class="section">
+        <div class="section-title">Languages</div>
+        
+  <div class="lang-line"><b>English</b><span class="dot">&middot;</span>Native</div>
+  <div class="lang-line"><b>Arabic</b><span class="dot">&middot;</span>Native</div>
+  <div class="lang-line"><b>French</b><span class="dot">&middot;</span>Working knowledge</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

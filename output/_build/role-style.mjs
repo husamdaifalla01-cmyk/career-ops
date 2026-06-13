@@ -11,6 +11,15 @@ export const style = {
       ['Service & Team', 'Client Service, Team Training & Supervision, Coordination & Scheduling, Cash Handling, Procurement & Receiving'],
     ],
   },
+  'regulatory-targeted': {
+    tagline: ['Regulatory & Compliance', 'Regulatory Research & Accreditation Pathways', 'Federal Compliance Experience'],
+    coreSkills: [
+      ['Regulatory', 'Regulatory Research, Regulatory Gap Analysis, Accreditation Pathways (ISO 17994), Method Equivalency & Validation, Jurisdictional Regulatory Mapping, Regulatory Change Management'],
+      ['Compliance & Policy', 'Legislation Application (IRPA, Privacy Act), Regulatory Compliance, SOPs & Compliance Checklists, Information-Sharing Controls, Quality Assurance, Audit Readiness'],
+      ['Documentation & Data', 'Briefing Notes & Regulatory Writing, GCDocs, SharePoint, Microsoft Excel, Power BI'],
+      ['Science', 'BSc Biology, Microbiology, Method Comparison (percent agreement, sensitivity/specificity)'],
+    ],
+  },
   'cbsa-pm-inventory': {
     tagline: ['Operations & Compliance', 'Federal Government Experience', 'Active Reliability Status'],
     coreSkills: [

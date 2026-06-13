@@ -25,6 +25,14 @@ const STELIS = {
   workflow: `Mapped the end-to-end monitoring workflow to find where handoffs slowed things down, comparing lab turnaround times against the response windows needed to contain contamination.`,
 };
 
+// IRCC reframed toward compliance/regulatory (for the regulatory-targeted resume).
+const IRCC_REG = [
+  `Apply the Immigration and Refugee Protection Act (IRPA), the Privacy Act, and controlled information-sharing protocols to daily case decisions, determining what information can be shared, with whom, and under what authority, and handling flagged breaches.`,
+  `Maintain data integrity and quality assurance on national client records in GCMS: investigate and correct discrepancies, and document each action for audit.`,
+  `Run analyses in Microsoft Excel and GCMS reporting tools across large datasets to confirm statuses, surface anomalies, and report discrepancies.`,
+  `File and manage case documentation and records in GCDocs and GCMS, maintaining version control and audit-ready records.`,
+];
+
 // Mechanics-rich Stelis bullets for the general / agency resume (SME-credible).
 const STELIS_GENERAL = [
   `Authored a regulatory gap analysis and accreditation-pathway assessment for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.`,
@@ -105,6 +113,21 @@ export const roles = [
       stelisJob(STELIS_GENERAL),
       rogersJob([ROGERS.cash, ROGERS.materiel, ROGERS.kyc, ROGERS.train, ROGERS.retention]),
       elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.records]),
+    ],
+    skills: [LANGS, TOOLS, CLEAR],
+    // no letter — CV only
+  },
+
+  // 0b ─ Regulatory-targeted resume (regulatory affairs / compliance / ESG / regtech; no cover)
+  {
+    slug: 'regulatory-targeted',
+    company: 'Husam-Ahmed', roleName: 'Regulatory-Resume',
+    summary: `Regulatory and compliance professional with hands-on regulatory affairs experience. Authored a regulatory gap analysis and accreditation-pathway assessment to bring a real-time microbial water-monitoring technology to the Canadian and US markets, mapping the method against accredited compliance standards across jurisdictions (Health Canada GCDWQ, US EPA) and the ISO 17994 equivalency requirements. Currently apply federal legislation (IRPA, the Privacy Act) and compliance controls daily at IRCC's Operations Support Centre. BSc Biology; active Reliability clearance; strong in regulatory research, method validation, and Power BI reporting.`,
+    jobs: [
+      irccJob(IRCC_REG),
+      stelisJob(STELIS_GENERAL),
+      rogersJob([ROGERS.kyc, ROGERS.train]),
+      elementalJob([ELEMENTAL.protocol, ELEMENTAL.records]),
     ],
     skills: [LANGS, TOOLS, CLEAR],
     // no letter — CV only
