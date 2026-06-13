@@ -62,7 +62,7 @@ for (const r of roles) {
   let cv = cvTemplate
     .replaceAll('{{NAME}}', NAME)
     .replaceAll('{{TAGLINE}}', st.tagline.join(sep))
-    .replaceAll('{{CONTACT}}', [LOCATION, EMAIL, PHONE].join('<span class="sep">&middot;</span>'.replace('sep', 'sep')))
+    .replaceAll('{{CONTACT}}', [LOCATION, EMAIL, PHONE, 'linkedin.com/in/husamahmedca'].join('<span class="sep">&middot;</span>'))
     .replaceAll('{{SUMMARY}}', r.summary)
     .replaceAll('{{CORE_SKILLS}}', st.coreSkills.map(([label, items]) => `<div class="skill-line"><b>${label}</b><span class="dot">&middot;</span>${items}</div>`).join('\n'))
     .replaceAll('{{EXPERIENCE}}', r.jobs.map(jobHtml).join('\n'))
@@ -72,24 +72,25 @@ for (const r of roles) {
   const cvHtml = `${ROOT}output/_${r.slug}-cv.html`;
   await writeFile(cvHtml, cv);
 
-  // ---- Cover letter ----
-  const cover = coverTemplate
-    .replaceAll('{{NAME}}', NAME)
-    .replaceAll('{{CONTACT}}', `<span>${PHONE}</span><span class="separator">|</span><span>${EMAIL}</span><span class="separator">|</span><span>${LOCATION}</span>`)
-    .replaceAll('{{DATE}}', DATE)
-    .replaceAll('{{RECIPIENT}}', r.recipient)
-    .replaceAll('{{RE_LINE}}', r.reLine)
-    .replaceAll('{{BODY}}', r.letter.map((p) => `<p>${p}</p>`).join('\n'))
-    .replaceAll(`'../../fonts/`, `'../fonts/`);
+  const renderJobs = [[cvHtml, `${ROOT}output/${r.company}-${r.roleName}-CV.pdf`]];
 
-  const coverHtml = `${ROOT}output/_${r.slug}-cover.html`;
-  await writeFile(coverHtml, cover);
+  // ---- Cover letter (only when the role defines one) ----
+  if (r.letter) {
+    const cover = coverTemplate
+      .replaceAll('{{NAME}}', NAME)
+      .replaceAll('{{CONTACT}}', `<span>${PHONE}</span><span class="separator">|</span><span>${EMAIL}</span><span class="separator">|</span><span>${LOCATION}</span>`)
+      .replaceAll('{{DATE}}', DATE)
+      .replaceAll('{{RECIPIENT}}', r.recipient)
+      .replaceAll('{{RE_LINE}}', r.reLine)
+      .replaceAll('{{BODY}}', r.letter.map((p) => `<p>${p}</p>`).join('\n'))
+      .replaceAll(`'../../fonts/`, `'../fonts/`);
+    const coverHtml = `${ROOT}output/_${r.slug}-cover.html`;
+    await writeFile(coverHtml, cover);
+    renderJobs.push([coverHtml, `${ROOT}output/${r.company}-${r.roleName}-Cover.pdf`]);
+  }
 
   // ---- Render ----
-  for (const [input, output] of [
-    [cvHtml, `${ROOT}output/${r.company}-${r.roleName}-CV.pdf`],
-    [coverHtml, `${ROOT}output/${r.company}-${r.roleName}-Cover.pdf`],
-  ]) {
+  for (const [input, output] of renderJobs) {
     const out = execFileSync('node', [`${ROOT}generate-pdf.mjs`, input, output, '--format=letter'], { encoding: 'utf8' });
     const pages = out.match(/pages?:?\s*(\d+)/i)?.[1] ?? '?';
     console.log(`${output.split('/').pop()}  pages=${pages}`);

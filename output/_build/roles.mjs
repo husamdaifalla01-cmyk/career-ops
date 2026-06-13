@@ -31,6 +31,8 @@ const ROGERS = {
   kyc_fraud: `Acted as on-floor compliance authority for credit, KYC, and privacy decisions, reviewing customer documentation and credit-check results before any transaction closed: the store's front line against subscription and identity fraud.`,
   train: `Onboarded and trained new hires on KYC procedures, privacy requirements, and documentation standards, maintaining consistent compliance across shifts; led a team of three over three years.`,
   retention: `Drove client retention above 90% and high CSAT by analyzing CRM customer history in Excel and building structured follow-up workflows that produced an auditable record of each customer interaction.`,
+  cash: `Performed daily cash audits and managed the store's cash-in-hand (BPO credit), reconciling balances and working within a set monthly budget; structured customer-retention offers and outreach within that budget.`,
+  materiel: `Procured and received product inventory and managed stock levels in a fast-paced retail environment.`,
 };
 
 const ELEMENTAL = {
@@ -77,6 +79,27 @@ const CERTS = `<div class="cert-item"><div class="cert-title">Google Data Analyt
 // ---- Role definitions ----
 
 export const roles = [
+
+  // 0 ─ General recruitment resume (for staffing agencies; no cover letter)
+  {
+    slug: 'general-recruitment',
+    company: 'Husam-Ahmed', roleName: 'General-Resume',
+    summary: `Operations and compliance professional with federal government experience and an active Reliability Status. At IRCC's Operations Support Centre I resolve identity and data-integrity cases in GCMS, apply the IRPA and Privacy Act, examine documents for fraud, and administer system access (GCMS, CIBIDS, myKEY) for staff worldwide. My background also spans regulatory research with Power BI reporting, and three years of retail operations leadership covering KYC compliance, cash and budget management, and procurement. Strong in case management, document and records management (GCDocs), data analysis, and confidentiality. Seeking analyst, officer, coordinator, or administrator roles in the National Capital Region.`,
+    competencies: [
+      ['Operations', 'Case Management, Data Integrity, Identity Verification, Case Triage, Quality Assurance, Records Management, Process Improvement'],
+      ['Compliance & Policy', 'IRPA, Privacy Act, KYC, Information-Sharing Controls, Breach Handling, Regulatory Compliance'],
+      ['Documentation & Tools', 'GCMS, GCDocs, SharePoint, Microsoft Excel, Power BI, SOPs, Briefing Notes, Microsoft Teams'],
+      ['Administration & Finance', 'Coordination & Scheduling, Cash & Budget Management, Procurement & Receiving, Training & Supervision'],
+    ],
+    jobs: [
+      irccJob([IRCC.identity, IRCC.fraud_tactics, IRCC.irpa, IRCC.triage, IRCC.pivot, IRCC.access]),
+      stelisJob([STELIS.reg, STELIS.brief, STELIS.data, STELIS.validation]),
+      rogersJob([ROGERS.cash, ROGERS.materiel, ROGERS.kyc, ROGERS.train, ROGERS.retention]),
+      elementalJob([ELEMENTAL.protocol, ELEMENTAL.refusals, ELEMENTAL.records]),
+    ],
+    skills: [LANGS, TOOLS, CLEAR],
+    // no letter — CV only
+  },
 
   // 1 ─ CBSA Various Positions inventory (PM-02/PM-03, AS streams)
   {

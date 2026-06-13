@@ -1,6 +1,6 @@
 HUSAM AHMED
 Operations, Compliance and Data Integrity | Federal Government Experience | Active Reliability Status
-Ottawa, ON | husamdaifalla01@gmail.com | (647) 685-6908
+Ottawa, ON | husamdaifalla01@gmail.com | (647) 685-6908 | linkedin.com/in/husamahmedca
 Languages: English (native), Arabic (native), French (working knowledge, not SLE-tested)
 
 -- HOW TO USE: This is your central GC Jobs resume. Paste it into the GC Jobs resume box and reuse

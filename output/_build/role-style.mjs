@@ -2,6 +2,15 @@
 // Vocabulary restricted to canonical cv.md skill terms.
 
 export const style = {
+  'general-recruitment': {
+    tagline: ['Operations, Compliance & Data Integrity', 'Federal Government Experience', 'Active Reliability Status'],
+    coreSkills: [
+      ['Operations', 'Case Management, Data Integrity, Identity Verification, Case Triage, Quality Assurance, Records Management, Process Improvement'],
+      ['Compliance & Policy', 'IRPA, Privacy Act, KYC, Information-Sharing Controls, Breach Handling, Regulatory Compliance'],
+      ['Documentation & Tools', 'GCMS, GCDocs, SharePoint, Microsoft Excel, Power BI, SOPs, Briefing Notes, Microsoft Teams'],
+      ['Administration & Finance', 'Coordination & Scheduling, Cash & Budget Management, Procurement & Receiving, Training & Supervision'],
+    ],
+  },
   'cbsa-pm-inventory': {
     tagline: ['Operations & Compliance', 'Federal Government Experience', 'Active Reliability Status'],
     coreSkills: [
