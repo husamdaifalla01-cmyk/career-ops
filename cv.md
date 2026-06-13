@@ -37,7 +37,7 @@ Federal operations and compliance professional at IRCC's Operations Support Cent
 - Compare real-time ColiMinder readings against culture-based lab results in Excel pivot tables, calculating percent agreement and false-positive rates across pilot sites to quantify how closely the real-time method tracks the lab benchmark.
 - Review federal and provincial drinking-water regulations (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03, and US state equivalents) to identify the testing requirements real-time monitoring must satisfy, then evaluate pilot results against those standards.
 - Document lab-testing turnaround times against the response windows required to contain microbial contamination, drawing on subject-matter expert input to build the public-health case for real-time monitoring.
-- Write the briefing notes and comparison tables that go to senior management, laying out the speed, verification, documentation, and regulatory acceptance tradeoffs between real-time and lab-based monitoring.
+- Write the briefing notes and reports that go to senior management, laying out the speed, verification, documentation, and regulatory acceptance tradeoffs between real-time and lab-based monitoring.
 - Track regulatory changes to drinking-water rules in a running change log, update the team's SOP and compliance checklist as rules evolve, and map the end-to-end monitoring workflow to flag where handoffs slow things down.
 
 ### Manager on Duty / Sales Advisor

@@ -51,7 +51,7 @@ Part-time independent contractor (~8 hrs/week); equity-compensated
 ------------------------------------------------------------
 - Researched federal and provincial drinking-water regulations (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03, US EPA) and evaluated pilot results against them.
 - Authored and maintained the team's consolidated SOP and compliance checklist (the unit's primary reference) and a regulatory change log, flagging compliance risks to project leads.
-- Wrote briefing notes and comparison tables for senior management on the tradeoffs between real-time and lab-based monitoring; these informed market-prioritization decisions.
+- Wrote briefing notes and reports for senior management on the tradeoffs between real-time and lab-based monitoring; these informed market-prioritization decisions.
 - Extracted and standardized multi-source monitoring data (Health Canada, US EPA, provincial) and built cross-jurisdictional Power BI dashboards, including exceedance heat maps.
 - Validated a real-time method against lab results in Excel, calculating percent agreement and false-positive rates across pilot sites.
 - Owned recurring pilot deliverables (sample counts, exceedances, method-vs-lab agreement) reviewed by project leads; mapped the end-to-end monitoring workflow.
