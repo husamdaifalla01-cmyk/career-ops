@@ -35,10 +35,10 @@ const IRCC_REG = [
 
 // Mechanics-rich Stelis bullets for the general / agency resume (SME-credible).
 const STELIS_GENERAL = [
-  `Authored multiple regulatory gap analyses and accreditation-pathway assessments to bring a real-time microbial water-monitoring technology (ColiMinder, measuring β-glucuronidase activity as a rapid proxy for E. coli) into the Canadian and US markets.`,
-  `Benchmarked the rapid method against the accredited reference methods Canadian and US drinking-water rules require (Colilert-18, membrane filtration), and mapped both the approval pathway it would need for compliance use (EPA Alternate Test Procedure, ISO 17994 equivalency) and where it could serve today as early-warning monitoring.`,
+  `Authored multiple regulatory gap analyses and accreditation-pathway assessments to bring a real-time microbial water-monitoring technology (ColiMinder, measuring β-glucuronidase activity as a rapid proxy for E. coli) into the Canadian market.`,
+  `Benchmarked the rapid method against the accredited reference methods Canada's drinking-water rules require (Colilert-18, membrane filtration), and mapped both the approval pathway it would need for compliance use (ISO 17994 equivalency, CALA/SCC accreditation) and where it could serve today as early-warning monitoring.`,
   `Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably it tracked regulated E. coli levels.`,
-  `Built Power BI heat maps across Canadian and US jurisdictions, joining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's monitoring and treatment requirements to prioritize target markets.`,
+  `Built Power BI heat maps across Canadian jurisdictions, joining contamination exceedance data (microbial, lead, nitrate from Health Canada and provincial reports) with each jurisdiction's monitoring and treatment requirements to prioritize target markets.`,
   `Interviewed water scientists, engineers, and regulators to ground the analysis and deployment recommendations in operational and compliance reality.`,
 ];
 

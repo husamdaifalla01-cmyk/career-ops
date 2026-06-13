@@ -33,11 +33,11 @@ Federal operations and compliance professional at IRCC's Operations Support Cent
 **Stelis Environmental Solutions** / Ottawa, ON — Nov 2023 to Jul 2025
 *(Held concurrently with the IRCC role above, Aug 2024 to Jul 2025. Independent contractor, ~8 hrs/week; equity-compensated.)*
 
-- Authored multiple regulatory gap analyses and accreditation-pathway assessments for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.
-- Benchmarked the rapid method against the accredited reference methods Canadian and US drinking-water rules require (Colilert-18, membrane filtration), and mapped both the approval pathway it would need for compliance use (EPA Alternate Test Procedure, ISO 17994 equivalency) and where it could serve today as early-warning monitoring.
+- Authored multiple regulatory gap analyses and accreditation-pathway assessments for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian market.
+- Benchmarked the rapid method against the accredited reference methods Canada's drinking-water rules require (Colilert-18, membrane filtration), and mapped both the approval pathway it would need for compliance use (ISO 17994 equivalency, CALA/SCC accreditation) and where it could serve today as early-warning monitoring.
 - Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably the enzymatic signal predicted regulated E. coli levels.
-- Built Power BI heat maps across Canadian and US jurisdictions, combining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's water-treatment and monitoring requirements, to prioritize target markets for deployment.
-- Researched site-level and seasonal water-quality trends across Canadian and US jurisdictions from public monitoring data to recommend where and when real-time monitoring would add the most value.
+- Built Power BI heat maps across Canadian jurisdictions, joining contamination exceedance data (microbial, lead, nitrate from Health Canada and provincial reports) with each jurisdiction's monitoring and treatment requirements to prioritize target markets.
+- Researched site-level and seasonal water-quality trends across Canadian jurisdictions from public monitoring data to recommend where and when real-time monitoring would add the most value.
 - Interviewed water scientists, engineers, and regulators to ground the regulatory analysis and deployment recommendations in operational and compliance reality.
 - Authored and maintained the team's SOP, compliance checklist, and regulatory change log on federal and provincial drinking-water rules, and wrote the briefing notes summarizing the findings for company leadership.
 
