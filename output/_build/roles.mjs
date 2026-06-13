@@ -35,7 +35,7 @@ const IRCC_REG = [
 
 // Mechanics-rich Stelis bullets for the general / agency resume (SME-credible).
 const STELIS_GENERAL = [
-  `Authored a regulatory gap analysis and accreditation-pathway assessment for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.`,
+  `Authored multiple regulatory gap analyses and accreditation-pathway assessments for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.`,
   `Compared the rapid method against each jurisdiction's accredited culture-based compliance methods (Health Canada GCDWQ, Ontario O. Reg. 170/03, Quebec RQEP, and US EPA equivalents) to map where it could be adopted for operational or early-warning monitoring versus regulatory compliance testing, and what method-equivalency validation (e.g., ISO 17994) would require.`,
   `Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably the enzymatic signal predicted regulated E. coli levels.`,
   `Built Power BI heat maps across Canadian and US jurisdictions, combining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's water-treatment and monitoring requirements, to prioritize target markets for deployment.`,
