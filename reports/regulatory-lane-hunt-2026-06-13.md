@@ -56,7 +56,60 @@ in the NCR — and pursue an **IRCC internal deployment** into a PM regulatory/i
 external web search. Set a GC Jobs email alert: "regulatory officer / compliance officer," PM-02/03
 + SG, NCR, internal scope.
 
-## Net read
+---
+
+# REMOTE WIDENING (Canada + global) — added 2026-06-13
+
+Widened beyond Ottawa to remote-Canada and remote-global. The big finding: a **private lane that
+actually fits you without RAC/ISO 13485**.
+
+## The private-sector unlock: NHP / cosmetics / food / supplement regulatory consulting
+This is your **best-fit private lane** — BSc is enough, RAC and ISO 13485 are "asset, not required,"
+and the work *is* multi-jurisdiction regulatory mapping + ingredient/method compliance review +
+regulatory writing = exactly your ColiMinder gap-analysis muscle. Lead every application here with
+the Stelis regulatory work as the proof point.
+
+| Role | Employer | Remote | Note |
+|------|----------|--------|------|
+| **Formula Regulatory Review Associate Consultant (Cosmetics)** + sibling roles (Raw Material / Product Compliance) | **ClinChoice** | Remote-Canada ✅ | Best title-to-profile match found; min 1 yr; **12-mo contract, salary unpublished — confirm ≥$70K**. Apply: job-boards.eu.greenhouse.io/clinchoice |
+| **Regulatory Solutions Specialist (Ingredient Compliance)** | **Quality Smart Solutions** | Remote-friendly (confirm) | BSc explicitly accepted; 1–7 yr band (junior-eligible). Apply by email: careers@qualitysmartsolutions.com |
+| **Regulatory Scientific Specialist** | **Dicentra** (Toronto, hybrid/remote) | Confirm | BSc required, **RAC only "an asset"**; verify it's junior (≤2–3 yr) + remote. Avoid their Manager / Medical-Device RA roles |
+
+## Adjacent remote lanes worth adding to your search
+- **ESG / Sustainability Analyst** (frameworks: GRI/SASB/CSRD) — your environmental-regulatory + science + Power BI fit cleanly, no credential gate. Lead found: **EcoOnline** (Sustainability Analyst, remote-Canada — confirm level/comp).
+- **Regulatory Content Analyst** at regulatory-intelligence firms (**Thomson Reuters, LexisNexis, Diligent**) — literally "research, map, summarize regulations across jurisdictions" = your Stelis work. No live junior req today; set alerts.
+- **RegTech / compliance analyst:** **Affirm — Compliance Analyst II** (remote-Canada, **$78–118K CAD**, no RAC/ISO gate) — comp is great but "II" may want ~3 yrs and it's fintech/AML adjacent; verify. **Firmex — Junior Compliance Analyst** (remote-Canada; likely expired, watch for repost).
+- **Standards / accreditation:** **CSA Group**, **SCC**, **CALA** — your ISO 17994 / method-equivalency world; watch for junior analyst/officer roles.
+
+## Remote knockouts (named)
+- Medtech / IVD Regulatory Affairs (Associate→Director) — **RAC and/or ISO 13485** gated. The "dream-fit" diagnostics roles are almost all senior or ISO-gated.
+- Pharma CTA drug-submission RA (Parexel, ICON) — senior + Health Canada CTA depth you don't have.
+- Legal-compliance counsel (Rakuten Kobo) — wants JD/LLB.
+- AbbVie RA Associate (St-Laurent QC) — quals fit cleanly (BSc accepted) but **onsite/hybrid Montreal, not remote**. Strong target only if you ever flex to hybrid-Montreal (French helps there).
+
+## Remote net read
+Confirmed-live junior remote regulatory roles are scarce right now, but the **NHP/cosmetics/food
+consulting lane (ClinChoice, QSS, Dicentra)** is your realest private entry — your exact skill, no
+credential gate, remote-Canada. The only consistent risk is comp (contract/associate-consultant pay
+is often unpublished and can land under $70K — ask up front, walk if under floor). Channel tip:
+these consultancies cycle junior roles continuously and many use email/ATS application, so set
+careers-page alerts and apply directly rather than trusting aggregators.
+
+---
+
+## OVERALL net read (Ottawa + remote combined)
+The regulatory lane is **real and worth running** — value ranked:
+1. **Federal science-regulatory (Ottawa)** — Health Canada SG-SRE RCEO, ECCC GT-04, MECP ECO. Clears comp, Biology fits, no certs, plus your internal-deployment edge. **Strongest overall.**
+2. **NHP/cosmetics/food regulatory consulting (remote-Canada)** — your best *private* fit; gated only by comp. Verify ≥$70K.
+3. **Adjacent remote lanes** — ESG analyst, regulatory content analyst, regtech compliance — add volume; lead with the Stelis regulatory work.
+
+**One materials implication:** your current resumes lead with IRCC identity/ops, which *buries* your
+most relevant experience for these roles. A regulatory-targeted resume should **lead with the Stelis
+regulatory-affairs work** (gap analysis, accreditation pathway, jurisdictional mapping, method
+validation) and reframe IRCC as "federal compliance operations." That reframe is the single highest-
+impact next step for this lane.
+
+## Original net read (Ottawa, retained)
 The regulatory lane is **real and worth running** — but the value is **federal, not private**.
 Private junior reg-affairs roles that clear $70K are scarce and gated by RAC/ISO 13485; the
 federal science-regulatory officer roles (Health Canada SG-SRE, ECCC GT, CFIA PM, MECP ECO) clear
