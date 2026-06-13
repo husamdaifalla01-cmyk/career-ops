@@ -35,11 +35,11 @@ const IRCC_REG = [
 
 // Mechanics-rich Stelis bullets for the general / agency resume (SME-credible).
 const STELIS_GENERAL = [
-  `Authored multiple regulatory gap analyses and accreditation-pathway assessments for bringing a real-time microbial water-monitoring technology (ColiMinder, which measures β-glucuronidase enzyme activity as a rapid proxy for E. coli) to the Canadian and US markets.`,
-  `Compared the rapid method against each jurisdiction's accredited culture-based compliance methods (Health Canada GCDWQ, Ontario O. Reg. 170/03, Quebec RQEP, and US EPA equivalents) to map where it could be adopted for operational or early-warning monitoring versus regulatory compliance testing, and what method-equivalency validation (e.g., ISO 17994) would require.`,
-  `Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably the enzymatic signal predicted regulated E. coli levels.`,
-  `Built Power BI heat maps across Canadian and US jurisdictions, combining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's water-treatment and monitoring requirements, to prioritize target markets for deployment.`,
-  `Interviewed water scientists, engineers, and regulators to ground the regulatory analysis and deployment recommendations in operational and compliance reality.`,
+  `Authored multiple regulatory gap analyses and accreditation-pathway assessments to bring a real-time microbial water-monitoring technology (ColiMinder, measuring β-glucuronidase activity as a rapid proxy for E. coli) into the Canadian and US markets.`,
+  `Benchmarked the rapid method against the accredited reference methods these regimes require (Colilert-18 / ISO 9308-2, membrane filtration / ISO 9308-1) across the US EPA Safe Drinking Water Act, Health Canada GCDWQ, Ontario O. Reg. 170/03, and Quebec RQEP, then mapped the approval pathway a new method must clear (US EPA Alternate Test Procedure; ISO 17994 equivalency) and where it could serve now as operational or early-warning monitoring.`,
+  `Validated the method against culture-based lab results using paired data from the Quebec deployment and published method-comparison studies, calculating percent agreement, false-positive rates, and sensitivity/specificity in Excel to quantify how reliably it tracked regulated E. coli levels.`,
+  `Built Power BI heat maps across Canadian and US jurisdictions, joining contamination exceedance data (microbial, lead, nitrate from Health Canada, US EPA, and provincial reports) with each jurisdiction's monitoring and treatment requirements to prioritize target markets.`,
+  `Interviewed water scientists, engineers, and regulators to ground the analysis and deployment recommendations in operational and compliance reality.`,
 ];
 
 const ROGERS = {
