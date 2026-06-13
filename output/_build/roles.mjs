@@ -17,12 +17,12 @@ const IRCC = {
 };
 
 const STELIS = {
-  data: `Combine and clean public drinking-water and wastewater monitoring data from Health Canada, the US EPA, and provincial reports, standardizing inconsistent reporting formats, then build cross-jurisdictional Power BI dashboards, including exceedance heat maps, that drive the team's market prioritization.`,
-  validation: `Compare real-time ColiMinder readings against culture-based lab results in Excel pivot tables, calculating percent agreement and false-positive rates across pilot sites to quantify how closely the real-time method tracks the lab benchmark.`,
-  reg: `Author and maintain the team's consolidated SOP and compliance checklist on federal and provincial drinking-water rules (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03), used as the primary reference for assessing real-time outputs against lab-based requirements.`,
-  changelog: `Track regulatory changes to drinking-water rules in a running change log, update the SOP and compliance checklist as rules evolve, and surface compliance risks to project leads.`,
-  brief: `Write the briefing notes and reports that go to senior management, laying out speed, verification, documentation, and regulatory-acceptance tradeoffs between real-time and lab-based monitoring.`,
-  workflow: `Map the end-to-end monitoring workflow to flag where handoffs slow things down, documenting lab turnaround times against the response windows required to contain microbial contamination.`,
+  data: `Built cross-jurisdictional Power BI dashboards and exceedance heat maps from multi-source public data (Health Canada, US EPA, and provincial reports), cleaning and standardizing inconsistent formats so jurisdictions could be compared for the team's market prioritization.`,
+  validation: `Validated a real-time microbial water-testing method against culture-based lab results in Excel, calculating percent agreement and false-positive rates across pilot sites to measure how closely it tracked the lab benchmark.`,
+  reg: `Authored and maintained the team's main SOP and compliance checklist on federal and provincial drinking-water rules (Health Canada GCDWQ, Ontario O. Reg. 169/03 and 170/03).`,
+  changelog: `Tracked regulatory changes in a running change log, updated the SOP and checklist as rules evolved, and flagged compliance risks to project leads.`,
+  brief: `Wrote the briefing notes and reports for the company's leadership on the tradeoffs between real-time and lab-based monitoring: speed, verification, documentation, and regulatory acceptance.`,
+  workflow: `Mapped the end-to-end monitoring workflow to find where handoffs slowed things down, comparing lab turnaround times against the response windows needed to contain contamination.`,
 };
 
 const ROGERS = {
