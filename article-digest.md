@@ -12,7 +12,7 @@ Nothing below may be inflated; where a number is unverified it is marked TODO.
   status checks and household identity-correction requests (PPMI + IMM), prioritizing by case
   urgency against team capacity.
 - **Biometric operations support (BOSU) for 60+ Visa Application Centres and Missions abroad
-  and IRCC partners:** administers GCMS, CIBIDS, and myKEY access — account provisioning,
+  and IRCC partners:** administers CIBIDS and myKEY access — account provisioning,
   permission changes, urgent technical issues, every action logged.
 - **Document examination + fraud-tactics awareness (confirmed by Husam 2026-06-11):** digs deep
   into client documents, passports, and travel documents as part of identity analysis; has direct,

@@ -5,10 +5,10 @@ export const style = {
   'general-recruitment': {
     tagline: ['Operations, Compliance & Data Integrity', 'Federal Government Experience', 'Active Reliability Status'],
     coreSkills: [
-      ['Operations', 'Case Management, Data Integrity, Identity Verification, Case Triage, Quality Assurance, Records Management, Process Improvement'],
-      ['Compliance & Policy', 'IRPA, Privacy Act, KYC, Information-Sharing Controls, Breach Handling, Regulatory Compliance'],
-      ['Documentation & Tools', 'GCMS, GCDocs, SharePoint, Microsoft Excel, Power BI, SOPs, Briefing Notes, Microsoft Teams'],
-      ['Administration & Finance', 'Coordination & Scheduling, Cash & Budget Management, Procurement & Receiving, Training & Supervision'],
+      ['Operations', 'Case Management, Data Integrity, Identity Verification, Document & Passport Examination, Fraud Detection, Case Triage, Quality Assurance, Records Management'],
+      ['Compliance & Policy', 'IRPA, Privacy Act, KYC, Information-Sharing Controls, Breach Handling, Confidentiality'],
+      ['Documentation & Data', 'GCMS, GCDocs, SharePoint, Microsoft Excel, Power BI, SOPs, Briefing Notes, Regulatory Research'],
+      ['Service & Team', 'Client Service, Team Training & Supervision, Coordination & Scheduling, Cash Handling, Procurement & Receiving'],
     ],
   },
   'cbsa-pm-inventory': {
