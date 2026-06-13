@@ -46,7 +46,7 @@ Federal operations and compliance professional at IRCC's Operations Support Cent
 - Ran the store floor as Manager on Duty (MOD), owning opening and closing procedures, daily sales and attach-rate targets, cash and inventory controls, and serving as the escalation point for both staff and customers across the shift.
 - Led a team of three associates over three years, coaching on product, sales technique, and compliance, running shift huddles, and holding the team accountable to documented procedure and performance standards.
 - Acted as on-floor compliance authority for credit, KYC, and privacy decisions, reviewing customer documentation and approving transactions only when every regulatory and internal-policy step was met.
-- Drove client retention above 90% and high CSAT by analyzing CRM customer history in Excel and building structured follow-up workflows that produced an auditable record of each customer interaction.
+- Kept customer retention above 90% by tracking customer history in Excel and keeping consistent, documented follow-up with customers.
 - Onboarded and trained new hires on point-of-sale systems, product knowledge, KYC procedures, and privacy and documentation standards, building shift-ready associates and maintaining consistent compliance across the team.
 
 ### Market Research Interviewer
